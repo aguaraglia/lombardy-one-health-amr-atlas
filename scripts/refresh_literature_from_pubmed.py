@@ -105,7 +105,6 @@ def main() -> int:
         "id": ",".join(CURATED),
         "retmode": "xml",
         "tool": "lom_amr_atlas",
-        "email": "atlas-maintainer@example.invalid",
     })
     request = urllib.request.Request(
         f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?{query}",

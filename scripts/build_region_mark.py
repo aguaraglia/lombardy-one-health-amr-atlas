@@ -58,8 +58,7 @@ def main():
         commands.append("M " + " L ".join(f"{x:.2f} {y:.2f}" for x, y in transformed) + " Z")
     svg = "\n".join([
         '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Profilo della Lombardia">',
-        '  <rect x="2" y="2" width="96" height="96" rx="20" fill="#176e8b"/>',
-        f'  <path d="{" ".join(commands)}" fill="#ffffff" fill-rule="evenodd"/>',
+        f'  <path d="{" ".join(commands)}" fill="#1558b0" fill-rule="evenodd"/>',
         '</svg>',
         ''
     ])

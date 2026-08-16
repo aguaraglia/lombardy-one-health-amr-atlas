@@ -39,6 +39,18 @@
       "note": "Aggregato di 31 presidi pubblici selezionati per qualita del dato; 22.388 eventi BSI; limiti del flusso espliciti."
     },
     {
+      "id": "regione_lombardia_microbio_pediatric_2023",
+      "title": "MICROBIO - Infezioni invasive pediatriche 2023",
+      "publisher": "Regione Lombardia",
+      "evidence_type": "human_amr_surveillance_pediatric",
+      "geography": "Lombardia",
+      "period": "2023",
+      "source_url": "https://www.regione.lombardia.it/content/dam/rl/canali-tematici-servizi/01-sanita/05-prevenzione-e-stili-di-vita/red-antimicrobico-resistenza/allegati/REGIONE%2BLOMBARDIA_Report%2BInfezioni%2Binvasive%2Bpediatriche_2023.pdf",
+      "data_file": "public/data/microbio_pediatric_2023_lombardia.json",
+      "publication_status": "public_approved",
+      "note": "1.311 eventi BSI e 36 isolamenti da liquor; pattern regionali selezionati con denominatori e IC95%; nessun dato per struttura."
+    },
+    {
       "id": "arpa_lombardia_sire_acque",
       "title": "SIRe Acque - catasto scarichi e impianti",
       "publisher": "ARPA Lombardia",
@@ -48,6 +60,39 @@
       "source_url": "https://www.arpalombardia.it/temi-ambientali/acqua/acque-reflue/sire-acque/",
       "publication_status": "candidate",
       "note": "Il catasto completo resta una fonte operativa; nel runtime e pubblicata soltanto la sintesi regionale 2025 verificata, non le righe impianto."
+    },
+    {
+      "id": "regione_lombardia_vet_rabbit_guidance",
+      "title": "Uso prudente dell'antibiotico - coniglio da carne",
+      "publisher": "Regione Lombardia",
+      "evidence_type": "veterinary_stewardship_guidance",
+      "geography": "Lombardia",
+      "period": "2022",
+      "source_url": "https://www.regione.lombardia.it/content/dam/rl/canali-tematici-servizi/01-sanita/10-animali-e-sanita-pubblica-veterinaria/red-antimicrobico-resistenza-in-ambito-veterinario/allegati/Uso%20prudente%20dell%20antibiotico%20nell%20allevamento%20del%20coniglio%20da%20carne_2022.pdf",
+      "publication_status": "candidate",
+      "note": "Materiale ufficiale di stewardship veterinaria; riferimento divulgativo, non dataset AMR."
+    },
+    {
+      "id": "regione_lombardia_vet_dairy_guidance",
+      "title": "Uso prudente dell'antibiotico - bovino da latte",
+      "publisher": "Regione Lombardia",
+      "evidence_type": "veterinary_stewardship_guidance",
+      "geography": "Lombardia",
+      "period": "2023",
+      "source_url": "https://www.regione.lombardia.it/content/dam/rl/canali-tematici-servizi/01-sanita/10-animali-e-sanita-pubblica-veterinaria/red-antimicrobico-resistenza-in-ambito-veterinario/allegati/Uso%20prudente%20dell%20antibiotico%20nell%20allevamento%20bovino%20da%20latte_2023.pdf",
+      "publication_status": "candidate",
+      "note": "Materiale ufficiale di stewardship veterinaria; riferimento divulgativo, non dataset AMR."
+    },
+    {
+      "id": "regione_lombardia_vet_swine_guidance",
+      "title": "Uso prudente degli antibiotici - allevamento suino",
+      "publisher": "Regione Lombardia",
+      "evidence_type": "veterinary_stewardship_guidance",
+      "geography": "Lombardia",
+      "period": "2025",
+      "source_url": "https://www.regione.lombardia.it/content/dam/rl/canali-tematici-servizi/01-sanita/10-animali-e-sanita-pubblica-veterinaria/red-antimicrobico-resistenza-in-ambito-veterinario/allegati/Uso%20prudente%20degli%20antibiotici%20nell%20allevamento%20suino_2025.pdf",
+      "publication_status": "candidate",
+      "note": "Materiale ufficiale di stewardship veterinaria; riferimento divulgativo, non dataset AMR."
     },
     {
       "id": "regione_lombardia_aware_2025",

@@ -2,13 +2,18 @@
 
 ## Esito
 
-La base ufficiale pubblicabile comprende ora geografia ISTAT 2026, AR-ISS 2024, OsMed 2024, MICROBIO 2023, AWaRe 2025, PPS-3, una sintesi regionale SIRe 2025 e il reticolo idrografico principale. Nessun dato individuale, clinico puntuale o riservato e stato acquisito o pubblicato.
+La base ufficiale pubblicabile comprende ora geografia ISTAT 2026, AR-ISS 2024, OsMed 2024, MICROBIO adulti e pediatrico 2023, AWaRe 2025, PPS-3, una sintesi regionale SIRe 2025 e il reticolo idrografico principale. Nessun dato individuale, clinico puntuale o riservato e stato acquisito o pubblicato.
 
 ## Nuove evidenze sanitarie
 
 - AWaRe 2025: quote Access/Watch/Reserve per 25 ASST, con popolazione generale, under 14 e over 65. Il dato riguarda consumi territoriali dei residenti e non include l'uso ospedaliero.
 - PPS-3: 28 strutture per acuti, 39 presidi e 12.412 pazienti rilevati tra novembre e dicembre 2022. Pubblicati aggregati su ICA, uso di antimicrobici e sette pattern di resistenza, con copertura e limiti del report.
+- MICROBIO pediatrico 2023: 1.311 eventi BSI, 36 isolamenti da liquor e nove pattern selezionati dagli antibiogrammi cumulativi regionali. Sono escluse le tabelle per singola struttura.
 - I valori presenti solo nei grafici regionali AWaRe non sono stati trascritti: le tabelle ASST sono state estratte senza ambiguita dal PDF ufficiale.
+
+## Materiali veterinari recuperati
+
+Sono stati acquisiti e registrati come riferimenti link-only i documenti regionali sull'uso prudente degli antibiotici in coniglio da carne (2022), bovino da latte (2023) e suino (2025). Sono materiali di stewardship e divulgazione, non dataset AMR.
 
 ## Contesto ambientale
 
@@ -19,11 +24,13 @@ La base ufficiale pubblicabile comprende ora geografia ISTAT 2026, AR-ISS 2024, 
 
 - evidenze veterinarie lombarde separabili da IZSLER, non sole linee guida;
 - consistenze zootecniche regionali BDN/VetInfo con licenza e data verificabili;
-- studi peer-reviewed lombardi su filiera alimentare, fauna e ambiente con dati misurati.
+- studi peer-reviewed lombardi su filiera alimentare, fauna e ambiente con dati misurati;
+- sorveglianza regionale delle acque reflue: la pagina 2026 annuncia l'estensione a geni di resistenza, ma i report correnti non sono ancora un dataset AMR pubblicabile;
+- DGR 4561/2025: registrata come riferimento di governance per priorita veterinarie, reflui e reportistica.
 
 ## QA e limiti tecnici
 
-- PDF AWaRe e PPS-3 acquisiti in snapshot raw con SHA-256 e verificati tramite estrazione testuale locale e fonte ufficiale online.
-- Il rendering locale dei grafici AWaRe e stato prodotto con Poppler, ma la visualizzazione nell'app e fallita per helper_unknown_error; per prudenza sono stati esclusi i valori non presenti come testo.
+- PDF AWaRe, PPS-3 e pediatrico acquisiti in snapshot raw con SHA-256 e verificati tramite estrazione testuale locale e fonte ufficiale online.
+- Il rendering locale dei grafici e stato prodotto con Poppler, ma la visualizzazione nell'app e fallita per helper_unknown_error; per prudenza sono stati esclusi i valori non verificabili come testo.
 - L'XLSX SIRe e stato importato in sola lettura con artifact-tool; nessuna riga impianto viene redistribuita.
 - I venv creati dentro Google Drive sono risultati incompleti/corrotti durante la sincronizzazione; la trasformazione GIS usa uv con ambiente effimero in cache.

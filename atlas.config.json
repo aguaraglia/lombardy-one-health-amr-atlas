@@ -6,7 +6,7 @@
   "shortName": "Lombardia One Health",
   "language": "it",
   "dataStatusLabel": "Base dati ufficiale verificata ed estesa il 16 agosto 2026.",
-  "publicScopeSummary": "Confini ISTAT 2026; AR-ISS 2024; OsMed 2024; MICROBIO 2023; AWaRe 2025; PPS-3; sintesi SIRe 2025 e reticolo idrografico principale.",
+  "publicScopeSummary": "Confini ISTAT 2026; AR-ISS 2024; OsMed 2024; MICROBIO adulti e pediatrico 2023; AWaRe 2025; PPS-3; sintesi SIRe 2025 e reticolo idrografico principale.",
   "map": {
     "center": [
       45.62,

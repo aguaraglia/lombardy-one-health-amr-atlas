@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0",
+  "edition": "lom_amr_atlas",
+  "records": [
+    {
+      "id": "ar_iss_2024_lombardia",
+      "title": "AR-ISS 2024 - Lombardia",
+      "publisher": "Istituto Superiore di Sanita",
+      "evidence_type": "human_amr_regional",
+      "geography": "Lombardia",
+      "period": "2024",
+      "source_url": "https://www.epicentro.iss.it/antibiotico-resistenza/ar-iss/RIS-5_2025.pdf",
+      "data_file": "public/data/ar_iss_2024_lombardia.json",
+      "publication_status": "public_approved",
+      "note": "Sei combinazioni patogeno-resistenza da sangue/liquor; copertura regionale 53,7%; nessun downscaling."
+    },
+    {
+      "id": "aifa_osmed_2024_lombardia",
+      "title": "AIFA OsMed 2024 - Regione Lombardia",
+      "publisher": "Agenzia Italiana del Farmaco",
+      "evidence_type": "human_antimicrobial_use",
+      "geography": "Lombardia",
+      "period": "2024",
+      "source_url": "https://www.aifa.gov.it/documents/20142/3610201/Lombardia_Osmed_2024.pdf",
+      "data_file": "public/data/aifa_osmed_2024_lombardia.json",
+      "publication_status": "public_approved",
+      "note": "Antibiotici: 14,7 DDD/1.000 abitanti/die nella tabella di spesa complessiva; consumo, non resistenza."
+    },
+    {
+      "id": "regione_lombardia_microbio_2023",
+      "title": "MICROBIO - Report Emocolture adulti 2023",
+      "publisher": "Regione Lombardia",
+      "evidence_type": "human_amr_surveillance",
+      "geography": "Lombardia",
+      "period": "2023",
+      "source_url": "https://www.regione.lombardia.it/wps/wcm/connect/ba81b9eb-5f1a-4aa2-ae89-3e5bd1189e21/REGIONE%2BLOMBARDIA_Report_Emocolture_Adulti_2023.pdf?CACHEID=ROOTWORKSPACE-ba81b9eb-5f1a-4aa2-ae89-3e5bd1189e21-pnMQDNp&MOD=AJPERES",
+      "data_file": "public/data/microbio_2023_lombardia.json",
+      "publication_status": "public_approved",
+      "note": "Aggregato di 31 presidi pubblici selezionati per qualita del dato; 22.388 eventi BSI; limiti del flusso espliciti."
+    },
+    {
+      "id": "regione_lombardia_microbio_pediatric_2023",
+      "title": "MICROBIO - Infezioni invasive pediatriche 2023",
+      "publisher": "Regione Lombardia",
+      "evidence_type": "human_amr_surveillance_pediatric",
+      "geography": "Lombardia",
+      "period": "2023",
+      "source_url": "https://www.regione.lombardia.it/content/dam/rl/canali-tematici-servizi/01-sanita/05-prevenzione-e-stili-di-vita/red-antimicrobico-resistenza/allegati/REGIONE%2BLOMBARDIA_Report%2BInfezioni%2Binvasive%2Bpediatriche_2023.pdf",
+      "data_file": "public/data/microbio_pediatric_2023_lombardia.json",
+      "publication_status": "public_approved",
+      "note": "1.311 eventi BSI e 36 isolamenti da liquor; pattern regionali selezionati con denominatori e IC95%; nessun dato per struttura."
+    },
+    {
+      "id": "arpa_lombardia_sire_acque",
+      "title": "SIRe Acque - catasto scarichi e impianti",
+      "publisher": "ARPA Lombardia",
+      "evidence_type": "wastewater_context",
+      "geography": "Lombardia",
+      "period": "2025",
+      "source_url": "https://www.arpalombardia.it/temi-ambientali/acqua/acque-reflue/sire-acque/",
+      "publication_status": "candidate",
+      "note": "Il catasto completo resta una fonte operativa; nel runtime e pubblicata soltanto la sintesi regionale 2025 verificata, non le righe impianto."
+    },
+    {
+      "id": "regione_lombardia_vet_rabbit_guidance",
+      "title": "Uso prudente dell'antibiotico - coniglio da carne",
+      "publisher": "Regione Lombardia",
+      "evidence_type": "veterinary_stewardship_guidance",
+      "geography": "Lombardia",
+      "period": "2022",
+      "source_url": "https://www.regione.lombardia.it/content/dam/rl/canali-tematici-servizi/01-sanita/10-animali-e-sanita-pubblica-veterinaria/red-antimicrobico-resistenza-in-ambito-veterinario/allegati/Uso%20prudente%20dell%20antibiotico%20nell%20allevamento%20del%20coniglio%20da%20carne_2022.pdf",
+      "publication_status": "candidate",
+      "note": "Materiale ufficiale di stewardship veterinaria; riferimento divulgativo, non dataset AMR."
+    },
+    {
+      "id": "regione_lombardia_vet_dairy_guidance",
+      "title": "Uso prudente dell'antibiotico - bovino da latte",
+      "publisher": "Regione Lombardia",
+      "evidence_type": "veterinary_stewardship_guidance",
+      "geography": "Lombardia",
+      "period": "2023",
+      "source_url": "https://www.regione.lombardia.it/content/dam/rl/canali-tematici-servizi/01-sanita/10-animali-e-sanita-pubblica-veterinaria/red-antimicrobico-resistenza-in-ambito-veterinario/allegati/Uso%20prudente%20dell%20antibiotico%20nell%20allevamento%20bovino%20da%20latte_2023.pdf",
+      "publication_status": "candidate",
+      "note": "Materiale ufficiale di stewardship veterinaria; riferimento divulgativo, non dataset AMR."
+    },
+    {
+      "id": "regione_lombardia_vet_swine_guidance",
+      "title": "Uso prudente degli antibiotici - allevamento suino",
+      "publisher": "Regione Lombardia",
+      "evidence_type": "veterinary_stewardship_guidance",
+      "geography": "Lombardia",
+      "period": "2025",
+      "source_url": "https://www.regione.lombardia.it/content/dam/rl/canali-tematici-servizi/01-sanita/10-animali-e-sanita-pubblica-veterinaria/red-antimicrobico-resistenza-in-ambito-veterinario/allegati/Uso%20prudente%20degli%20antibiotici%20nell%20allevamento%20suino_2025.pdf",
+      "publication_status": "candidate",
+      "note": "Materiale ufficiale di stewardship veterinaria; riferimento divulgativo, non dataset AMR."
+    },
+    {
+      "id": "regione_lombardia_aware_2025",
+      "title": "AWaRe 2025 - consumo territoriale per ASST",
+      "publisher": "Regione Lombardia",
+      "evidence_type": "human_antimicrobial_use",
+      "geography": "Lombardia / ASST",
+      "period": "2025",
+      "source_url": "https://www.regione.lombardia.it/content/dam/rl/canali-tematici-servizi/01-sanita/05-prevenzione-e-stili-di-vita/red-antimicrobico-resistenza/allegati/2026_01_22%20Report%20AWaRe%202025.pdf",
+      "data_file": "public/data/aware_2025_lombardia.json",
+      "publication_status": "public_approved",
+      "note": "Quote Access/Watch/Reserve per 25 ASST e fasce d'eta; consumo territoriale, non ospedaliero e non resistenza."
+    },
+    {
+      "id": "regione_lombardia_pps3",
+      "title": "PPS-3 Lombardia - ICA, antimicrobici e resistenze",
+      "publisher": "Regione Lombardia",
+      "evidence_type": "healthcare_amr_point_prevalence",
+      "geography": "Lombardia",
+      "period": "novembre-dicembre 2022",
+      "source_url": "https://www.regione.lombardia.it/content/dam/rl/canali-tematici-servizi/01-sanita/05-prevenzione-e-stili-di-vita/red-antimicrobico-resistenza/allegati/REPORT%2BPPS-3.pdf",
+      "data_file": "public/data/pps3_lombardia.json",
+      "publication_status": "public_approved",
+      "note": "28 strutture, 12.412 pazienti; prevalenza puntuale con copertura e limiti espliciti."
+    },
+    {
+      "id": "arpa_lombardia_sire_2025_summary",
+      "title": "SIRe Acque 2025 - sintesi regionale controlli e carichi",
+      "publisher": "ARPA Lombardia",
+      "evidence_type": "wastewater_context",
+      "geography": "Lombardia",
+      "period": "2025",
+      "source_url": "https://sireacque.arpalombardia.it/info.asp",
+      "data_file": "public/data/sire_wastewater_2025_lombardia.json",
+      "publication_status": "public_approved",
+      "note": "Aggregati regionali da 1.513 righe impianto; contesto ambientale, non evidenza AMR; nessuna riga impianto redistribuita."
+    }
+  ]
+}

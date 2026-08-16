@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "edition": "lom_amr_atlas",
+  "source_id": "ar_iss_2024_lombardia",
+  "period": 2024,
+  "geography": "Lombardia",
+  "scope": "isolati da sangue e liquor; sorveglianza AR-ISS",
+  "coverage": {
+    "value_percent": 53.7,
+    "denominator": "giornate di degenza per ricoveri ordinari per acuti; SDO dimessi 2023",
+    "limitations": "non corregge per gravita; considera i laboratori che hanno inviato emocolture e/o liquor"
+  },
+  "indicators": [
+    {
+      "code": "MRSA",
+      "pathogen": "Staphylococcus aureus",
+      "resistance": "meticillina",
+      "isolates": 2506,
+      "resistant": 696,
+      "percent": 27.8,
+      "ci95": "26.0-29.6"
+    },
+    {
+      "code": "VRE-faecium",
+      "pathogen": "Enterococcus faecium",
+      "resistance": "vancomicina",
+      "isolates": 943,
+      "resistant": 289,
+      "percent": 30.6,
+      "ci95": "27.7-33.7"
+    },
+    {
+      "code": "CREC",
+      "pathogen": "Escherichia coli",
+      "resistance": "cefalosporine di terza generazione",
+      "isolates": 5013,
+      "resistant": 1158,
+      "percent": 23.1,
+      "ci95": "21.9-24.3"
+    },
+    {
+      "code": "CRKP",
+      "pathogen": "Klebsiella pneumoniae",
+      "resistance": "carbapenemi",
+      "isolates": 1716,
+      "resistant": 220,
+      "percent": 12.8,
+      "ci95": "11.3-14.5"
+    },
+    {
+      "code": "CRPA",
+      "pathogen": "Pseudomonas aeruginosa",
+      "resistance": "carbapenemi",
+      "isolates": 899,
+      "resistant": 100,
+      "percent": 11.1,
+      "ci95": "9.1-13.4"
+    },
+    {
+      "code": "CRAS",
+      "pathogen": "Acinetobacter species",
+      "resistance": "carbapenemi",
+      "isolates": 257,
+      "resistant": 122,
+      "percent": 47.5,
+      "ci95": "41.2-53.8"
+    }
+  ],
+  "source": {
+    "title": "AR-ISS: sorveglianza nazionale dell Antibiotico-Resistenza. Dati 2024",
+    "report": "RIS-5/2025",
+    "table": "Appendice A, Regione Lombardia",
+    "url": "https://www.epicentro.iss.it/antibiotico-resistenza/ar-iss/RIS-5_2025.pdf",
+    "acquired_at": "2026-08-16",
+    "sha256": "50174DC846E19C6EAD2EA4D55982FC098487251A5EDAB8D484D6101B31482F0"
+  }
+}

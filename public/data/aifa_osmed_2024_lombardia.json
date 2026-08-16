@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "edition": "lom_amr_atlas",
+  "source_id": "aifa_osmed_2024_lombardia",
+  "period": 2024,
+  "geography": "Lombardia",
+  "indicator": {
+    "label": "Antibiotici",
+    "table_scope": "gruppi di farmaci in ordine decrescente di spesa nel 2024; spesa complessiva",
+    "expenditure_million_eur": 107.8,
+    "share_regional_expenditure_percent": 2.6,
+    "expenditure_per_capita_eur": 10.9,
+    "expenditure_change_2024_2023_percent": 1.9,
+    "expenditure_difference_from_national_average_percent": -21.9,
+    "ddd_per_1000_inhabitants_day": 14.7,
+    "ddd_change_2024_2023_percent": 1.5,
+    "ddd_difference_from_national_average_percent": -13.7
+  },
+  "limitations": "Indicatore di consumo e spesa, non misura di resistenza; non confrontare automaticamente con prevalenze AMR.",
+  "source": {
+    "title": "L uso dei farmaci in Italia - Regione Lombardia. Rapporto regionale sul consumo dei farmaci. Anno 2024",
+    "table": "Tabella 13",
+    "url": "https://www.aifa.gov.it/documents/20142/3610201/Lombardia_Osmed_2024.pdf",
+    "data_updated_to": "2025-04-26",
+    "acquired_at": "2026-08-16",
+    "sha256": "4D9B69A4CA5B93D10BDE7478B324F1D7C2DBEAFA4D55F9B2380EB81F0578B406"
+  }
+}

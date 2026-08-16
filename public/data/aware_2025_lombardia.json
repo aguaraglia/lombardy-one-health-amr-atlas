@@ -1,0 +1,481 @@
+{
+  "schema_version": "1.0",
+  "edition": "lom_amr_atlas",
+  "source_id": "regione_lombardia_aware_2025",
+  "period": 2025,
+  "geography": "Lombardia",
+  "domain": "human_antimicrobial_use_territorial",
+  "cohorts": {
+    "general_population": [
+      {
+        "asst": "ASST DEGLI SPEDALI CIVILI DI BRESCIA",
+        "access_percent": 59,
+        "watch_percent": 41,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST DEI SETTE LAGHI",
+        "access_percent": 55,
+        "watch_percent": 45,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST DEL GARDA",
+        "access_percent": 57,
+        "watch_percent": 43,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST DELLA BRIANZA",
+        "access_percent": 58,
+        "watch_percent": 42,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST DELLA FRANCIACORTA",
+        "access_percent": 59,
+        "watch_percent": 41,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST DELLA VALCAMONICA",
+        "access_percent": 59,
+        "watch_percent": 41,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST DELLA VALLE OLONA",
+        "access_percent": 57,
+        "watch_percent": 43,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST DELLA VALTELLINA E DELL'ALTO LARIO",
+        "access_percent": 56,
+        "watch_percent": 44,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST DI BERGAMO EST",
+        "access_percent": 64,
+        "watch_percent": 36,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST DI BERGAMO OVEST",
+        "access_percent": 64,
+        "watch_percent": 36,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST DI CREMA",
+        "access_percent": 57,
+        "watch_percent": 43,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST DI CREMONA",
+        "access_percent": 61,
+        "watch_percent": 39,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST DI LECCO",
+        "access_percent": 57,
+        "watch_percent": 43,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST DI LODI",
+        "access_percent": 54,
+        "watch_percent": 46,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST DI MANTOVA",
+        "access_percent": 59,
+        "watch_percent": 41,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST DI PAVIA",
+        "access_percent": 50,
+        "watch_percent": 50,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST FATEBENEFRATELLI SACCO",
+        "access_percent": 59,
+        "watch_percent": 41,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST GRANDE OSPEDALE METROPOLITANO NIGUARDA",
+        "access_percent": 59,
+        "watch_percent": 41,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST LARIANA",
+        "access_percent": 57,
+        "watch_percent": 43,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST MELEGNANO E DELLA MARTESANA",
+        "access_percent": 56,
+        "watch_percent": 44,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST NORD MILANO",
+        "access_percent": 60,
+        "watch_percent": 40,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST OVEST MILANESE",
+        "access_percent": 56,
+        "watch_percent": 44,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST PAPA GIOVANNI XXIII",
+        "access_percent": 67,
+        "watch_percent": 33,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST RHODENSE",
+        "access_percent": 58,
+        "watch_percent": 42,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST SANTI PAOLO E CARLO",
+        "access_percent": 59,
+        "watch_percent": 41,
+        "reserve_percent": 0
+      }
+    ],
+    "under_14": [
+      {
+        "asst": "ASST DEGLI SPEDALI CIVILI DI BRESCIA",
+        "access_percent": 71,
+        "watch_percent": 29,
+        "reserve_percent": null
+      },
+      {
+        "asst": "ASST DEI SETTE LAGHI",
+        "access_percent": 61,
+        "watch_percent": 39,
+        "reserve_percent": null
+      },
+      {
+        "asst": "ASST DEL GARDA",
+        "access_percent": 67,
+        "watch_percent": 33,
+        "reserve_percent": null
+      },
+      {
+        "asst": "ASST DELLA BRIANZA",
+        "access_percent": 74,
+        "watch_percent": 26,
+        "reserve_percent": null
+      },
+      {
+        "asst": "ASST DELLA FRANCIACORTA",
+        "access_percent": 73,
+        "watch_percent": 27,
+        "reserve_percent": null
+      },
+      {
+        "asst": "ASST DELLA VALCAMONICA",
+        "access_percent": 69,
+        "watch_percent": 31,
+        "reserve_percent": null
+      },
+      {
+        "asst": "ASST DELLA VALLE OLONA",
+        "access_percent": 70,
+        "watch_percent": 30,
+        "reserve_percent": null
+      },
+      {
+        "asst": "ASST DELLA VALTELLINA E DELL'ALTO LARIO",
+        "access_percent": 61,
+        "watch_percent": 39,
+        "reserve_percent": null
+      },
+      {
+        "asst": "ASST DI BERGAMO EST",
+        "access_percent": 70,
+        "watch_percent": 30,
+        "reserve_percent": null
+      },
+      {
+        "asst": "ASST DI BERGAMO OVEST",
+        "access_percent": 70,
+        "watch_percent": 30,
+        "reserve_percent": null
+      },
+      {
+        "asst": "ASST DI CREMA",
+        "access_percent": 67,
+        "watch_percent": 33,
+        "reserve_percent": null
+      },
+      {
+        "asst": "ASST DI CREMONA",
+        "access_percent": 77,
+        "watch_percent": 23,
+        "reserve_percent": null
+      },
+      {
+        "asst": "ASST DI LECCO",
+        "access_percent": 67,
+        "watch_percent": 33,
+        "reserve_percent": null
+      },
+      {
+        "asst": "ASST DI LODI",
+        "access_percent": 64,
+        "watch_percent": 36,
+        "reserve_percent": null
+      },
+      {
+        "asst": "ASST DI MANTOVA",
+        "access_percent": 69,
+        "watch_percent": 31,
+        "reserve_percent": null
+      },
+      {
+        "asst": "ASST DI PAVIA",
+        "access_percent": 63,
+        "watch_percent": 37,
+        "reserve_percent": null
+      },
+      {
+        "asst": "ASST FATEBENEFRATELLI SACCO",
+        "access_percent": 73,
+        "watch_percent": 27,
+        "reserve_percent": null
+      },
+      {
+        "asst": "ASST GRANDE OSPEDALE METROPOLITANO NIGUARDA",
+        "access_percent": 74,
+        "watch_percent": 26,
+        "reserve_percent": null
+      },
+      {
+        "asst": "ASST LARIANA",
+        "access_percent": 68,
+        "watch_percent": 32,
+        "reserve_percent": null
+      },
+      {
+        "asst": "ASST MELEGNANO E DELLA MARTESANA",
+        "access_percent": 65,
+        "watch_percent": 35,
+        "reserve_percent": null
+      },
+      {
+        "asst": "ASST NORD MILANO",
+        "access_percent": 72,
+        "watch_percent": 28,
+        "reserve_percent": null
+      },
+      {
+        "asst": "ASST OVEST MILANESE",
+        "access_percent": 62,
+        "watch_percent": 38,
+        "reserve_percent": null
+      },
+      {
+        "asst": "ASST PAPA GIOVANNI XXIII",
+        "access_percent": 71,
+        "watch_percent": 29,
+        "reserve_percent": null
+      },
+      {
+        "asst": "ASST RHODENSE",
+        "access_percent": 67,
+        "watch_percent": 33,
+        "reserve_percent": null
+      },
+      {
+        "asst": "ASST SANTI PAOLO E CARLO",
+        "access_percent": 72,
+        "watch_percent": 28,
+        "reserve_percent": null
+      }
+    ],
+    "over_65": [
+      {
+        "asst": "ASST DEGLI SPEDALI CIVILI DI BRESCIA",
+        "access_percent": 53,
+        "watch_percent": 47,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST DEI SETTE LAGHI",
+        "access_percent": 51,
+        "watch_percent": 49,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST DEL GARDA",
+        "access_percent": 51,
+        "watch_percent": 49,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST DELLA BRIANZA",
+        "access_percent": 51,
+        "watch_percent": 49,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST DELLA FRANCIACORTA",
+        "access_percent": 50,
+        "watch_percent": 50,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST DELLA VALCAMONICA",
+        "access_percent": 53,
+        "watch_percent": 47,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST DELLA VALLE OLONA",
+        "access_percent": 52,
+        "watch_percent": 48,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST DELLA VALTELLINA E DELL'ALTO LARIO",
+        "access_percent": 54,
+        "watch_percent": 46,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST DI BERGAMO EST",
+        "access_percent": 59,
+        "watch_percent": 41,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST DI BERGAMO OVEST",
+        "access_percent": 59,
+        "watch_percent": 41,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST DI CREMA",
+        "access_percent": 50,
+        "watch_percent": 50,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST DI CREMONA",
+        "access_percent": 56,
+        "watch_percent": 44,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST DI LECCO",
+        "access_percent": 53,
+        "watch_percent": 47,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST DI LODI",
+        "access_percent": 49,
+        "watch_percent": 51,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST DI MANTOVA",
+        "access_percent": 53,
+        "watch_percent": 47,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST DI PAVIA",
+        "access_percent": 44,
+        "watch_percent": 56,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST FATEBENEFRATELLI SACCO",
+        "access_percent": 52,
+        "watch_percent": 48,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST GRANDE OSPEDALE METROPOLITANO NIGUARDA",
+        "access_percent": 54,
+        "watch_percent": 46,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST LARIANA",
+        "access_percent": 52,
+        "watch_percent": 48,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST MELEGNANO E DELLA MARTESANA",
+        "access_percent": 50,
+        "watch_percent": 50,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST NORD MILANO",
+        "access_percent": 53,
+        "watch_percent": 47,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST OVEST MILANESE",
+        "access_percent": 52,
+        "watch_percent": 48,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST PAPA GIOVANNI XXIII",
+        "access_percent": 64,
+        "watch_percent": 36,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST RHODENSE",
+        "access_percent": 52,
+        "watch_percent": 48,
+        "reserve_percent": 0
+      },
+      {
+        "asst": "ASST SANTI PAOLO E CARLO",
+        "access_percent": 54,
+        "watch_percent": 46,
+        "reserve_percent": 0
+      }
+    ]
+  },
+  "limitations": [
+    "Percentuali di consumo territoriale per residenti nei distretti di competenza ASST; sono esclusi gli antibiotici impiegati nelle strutture ospedaliere.",
+    "Il report non espone denominatori o volumi assoluti nelle tabelle ASST: non confrontare le percentuali come quantita di consumo.",
+    "Reserve non e riportato nella tabella under 14 ed e rappresentato come null, non come zero.",
+    "Indicatore di uso degli antibiotici, non misura di resistenza antimicrobica."
+  ],
+  "source": {
+    "title": "Report AWaRe 2025 - Farmaceutica territoriale",
+    "publisher": "Regione Lombardia",
+    "report_date": "2026-01-22",
+    "tables": "sezioni 4, 7 e 10",
+    "url": "https://www.regione.lombardia.it/content/dam/rl/canali-tematici-servizi/01-sanita/05-prevenzione-e-stili-di-vita/red-antimicrobico-resistenza/allegati/2026_01_22%20Report%20AWaRe%202025.pdf",
+    "acquired_at": "2026-08-16",
+    "sha256": "C838FCAE41CA294CF10469155CCF85F56C4B1C4890C4F5F45FDA14E942A033C6"
+  }
+}

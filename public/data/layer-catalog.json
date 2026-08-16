@@ -3,6 +3,25 @@
   "edition": "lom_amr_atlas",
   "layers": [
     {
+      "id": "lombardia_wastewater_treatment_points",
+      "label": "Depuratori urbani - punti regionali",
+      "file": "public/geography/atlas_wastewater_plants.geojson",
+      "publication_status": "public_approved",
+      "publisher": "Regione Lombardia",
+      "source_url": "https://www.cartografia.servizirl.it/expo/rest/services/gpt/direttiva_alluvioni_2022/MapServer/6",
+      "license_status": "Servizio cartografico pubblico regionale; pubblicazione con attribuzione e campi minimizzati",
+      "validation_status": "passed",
+      "feature_count": 480,
+      "source_date": "rilievi indicati dal servizio, prevalentemente 2017; acquisito 2026-08-16",
+      "defaultVisible": true,
+      "color": "#1558b0",
+      "fillColor": "#ffffff",
+      "radius": 4,
+      "labelProperty": "name",
+      "popupFields": ["name", "province", "survey_year", "context_note"],
+      "popupLabels": {"name":"Impianto", "province":"Provincia", "survey_year":"Anno del rilievo", "context_note":"Nota"}
+    },
+    {
       "id": "lombardia_hydrography_rip_aipo",
       "label": "Fiumi e reticolo idrografico principale",
       "file": "public/geography/atlas_hydrography.geojson",

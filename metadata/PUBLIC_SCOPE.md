@@ -12,8 +12,9 @@ La base pubblica verificata comprende:
 - sintesi regionale SIRe Acque 2025 su carichi e controlli, esclusivamente come contesto ambientale non-AMR;
 - conteggi SIRe 2025 aggregati per provincia, ricavati dai 23 consuntivi ufficiali e pubblicati senza identificativi o coordinate di impianto;
 - reticolo idrografico principale RIP/AIPO di Regione Lombardia, trasformato in WGS84 e semplificato per uso cartografico;
+- 480 impianti di trattamento delle acque reflue urbane georiferiti dal servizio cartografico pubblico di Regione Lombardia, mantenuti distinti dai dati SIRe 2025 e dai punti di campionamento AMR;
 - letteratura scientifica con collegamento territoriale esplicito alla Lombardia, mantenuta distinta dai dataset.
 
-Gli export SIRe 2025 sono conservati come snapshot raw esclusi da Git. Il sito non redistribuisce righe, codici, nomi, coordinate o note dei singoli impianti. Il reticolo minore e di bonifica non è incluso nella build per evitare un layer sproporzionato e non necessario.
+Gli export SIRe 2025 sono conservati come snapshot raw esclusi da Git e non vengono redistribuiti a livello di singola riga. Il layer puntuale usa invece un servizio cartografico regionale pubblico separato, con soli campi essenziali e con l'anno del rilievo esplicitato. Il reticolo minore e di bonifica non è incluso nella build per evitare un layer sproporzionato e non necessario.
 
 Non sono pubblicati record individuali, identificativi di paziente o campione, coordinate cliniche, dati aziendali o di allevamento, dataset autenticati, né fonti prive di condizioni d'uso e trasformazione verificabili. Le tabelle pediatriche per singola struttura non vengono ripubblicate. Gli indicatori regionali non vengono attribuiti a comuni o strutture e non sono combinati in un indice sintetico di rischio.

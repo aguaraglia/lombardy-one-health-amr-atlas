@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "edition": "lom_amr_atlas",
+  "source": "ARPA Lombardia SIRe Acque - consuntivi provinciali 2025",
+  "source_url": "https://sireacque.arpalombardia.it/info.asp",
+  "acquired_at": "2026-08-16",
+  "method": "Conteggio dei codici impianto distinti nei PDF provinciali, separati per potenzialità almeno 2.000 AE e sotto 2.000 AE. Nessun codice o dettaglio impianto è pubblicato.",
+  "quality_note": "800 codici distinti complessivi; la somma provinciale è 801 perché un codice compare in due consuntivi provinciali. I valori rappresentano copertura documentale dei consuntivi, non una misura AMR.",
+  "records": [
+    {"province":"BG","plants_major":41,"plants_minor":47,"plants_total":88},
+    {"province":"BS","plants_major":82,"plants_minor":63,"plants_total":145},
+    {"province":"CO","plants_major":21,"plants_minor":20,"plants_total":41},
+    {"province":"CR","plants_major":23,"plants_minor":45,"plants_total":68},
+    {"province":"LC","plants_major":20,"plants_minor":4,"plants_total":24},
+    {"province":"LO","plants_major":27,"plants_minor":33,"plants_total":60},
+    {"province":"MB","plants_major":2,"plants_minor":0,"plants_total":2},
+    {"province":"MI","plants_major":62,"plants_minor":5,"plants_total":67},
+    {"province":"MN","plants_major":58,"plants_minor":39,"plants_total":97},
+    {"province":"PV","plants_major":48,"plants_minor":84,"plants_total":132},
+    {"province":"SO","plants_major":15,"plants_minor":7,"plants_total":22},
+    {"province":"VA","plants_major":36,"plants_minor":19,"plants_total":55}
+  ]
+}

@@ -1,13 +1,16 @@
 # Geografia pubblica
 
-Questa directory non contiene ancora geometrie lombarde approvate.
+La cartografia pubblica dell'edizione Lombardia comprende:
 
-Il dataset candidato e' il catalogo dei limiti amministrativi di Regione
-Lombardia. Prima di creare `atlas_municipalities.geojson` occorre registrare:
+- `atlas_region.geojson`: confine regionale ISTAT 2026;
+- `atlas_provinces.geojson`: 12 province/città metropolitana ISTAT 2026;
+- `atlas_municipalities.geojson`: 1.502 comuni ISTAT 2026;
+- `atlas_hydrography.geojson`: 975 elementi del reticolo principale RIP/AIPO;
+- `atlas_wastewater_provinces.geojson`: 12 geometrie provinciali con soli conteggi aggregati SIRe 2025.
 
-- versione e data di estrazione;
-- licenza e attribuzione;
-- CRS sorgente e conversione WGS84;
-- conteggio atteso di comuni/province/regione;
-- geometrie nulle o non valide;
-- hash SHA-256 del file pubblicato.
+Il layer SIRe non contiene nomi, codici, coordinate, gestori o note dei singoli
+impianti. I valori indicano la copertura documentale dei consuntivi provinciali
+e non rappresentano misure di resistenza antimicrobica.
+
+Le trasformazioni sono riproducibili con gli script in `scripts/`. Fonti,
+snapshot, licenze e limiti sono registrati in `metadata/` e `reports/`.

@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "edition": "lom_amr_atlas",
+  "selection_note": "Articoli con studio regionale lombardo o sito di studio esplicitamente localizzato in Lombardia; non equivalgono automaticamente a stime regionali.",
+  "records": [
+    {
+      "id": "comelli_microbio_2024",
+      "year": 2024,
+      "title": "How a laboratory-based antimicrobial resistance (AMR) regional surveillance system can address large-scale and local AMR epidemiology: the MICRO-BIO experience",
+      "authors": "Comelli A et al.",
+      "journal": "Frontiers in Public Health",
+      "scope": "regional_surveillance",
+      "geographic_link": "Sistema di sorveglianza MICRO-BIO di Regione Lombardia",
+      "pmid": "38410663",
+      "doi": "10.3389/fpubh.2024.1341482",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38410663/"
+    },
+    {
+      "id": "antonelli_pps3_lombardy_2024",
+      "year": 2024,
+      "title": "Healthcare-associated infections and antimicrobial use in acute care hospitals: a point prevalence survey in Lombardy, Italy, in 2022",
+      "authors": "Antonelli A et al.",
+      "journal": "BMC Infectious Diseases",
+      "scope": "infection_prevention",
+      "geographic_link": "PPS-3 in 28 ospedali per acuti della Lombardia",
+      "pmid": "38918691",
+      "doi": "10.1186/s12879-024-09487-7",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38918691/"
+    },
+    {
+      "id": "pennisi_hai_milan_2026",
+      "year": 2026,
+      "title": "Trends in Healthcare-Associated Infections Prevalence and Risk Factors: Repeated Point Prevalence Survey in a Milan Tertiary Hospital (2022-2025)",
+      "authors": "Pennisi F et al.",
+      "journal": "Antibiotics",
+      "scope": "infection_prevention",
+      "geographic_link": "Studio ospedaliero ripetuto 2022-2025, Milano",
+      "pmid": "42505604",
+      "doi": "10.3390/antibiotics15070641",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42505604/"
+    },
+    {
+      "id": "principe_colistin_lombardy_2018",
+      "year": 2018,
+      "title": "Multicenter prospective study on the prevalence of colistin resistance in Escherichia coli: relevance of mcr-1-positive clinical isolates in Lombardy, Northern Italy",
+      "authors": "Principe L et al.",
+      "journal": "Infection and Drug Resistance",
+      "scope": "healthcare_amr",
+      "geographic_link": "Sei ospedali lombardi",
+      "pmid": "29563818",
+      "doi": "10.2147/IDR.S160489",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/29563818/"
+    },
+    {
+      "id": "turolla_urban_sewage_milan_2018",
+      "year": 2018,
+      "title": "Antibiotic resistant bacteria in urban sewage: Role of full-scale wastewater treatment plants on environmental spreading",
+      "authors": "Turolla A et al.",
+      "journal": "Chemosphere",
+      "scope": "wastewater_amr",
+      "geographic_link": "Tre impianti di depurazione dell'area urbana di Milano",
+      "pmid": "29080537",
+      "doi": "10.1016/j.chemosphere.2017.10.099",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/29080537/"
+    },
+    {
+      "id": "zanotto_ecoli_wwtp_milan_2016",
+      "year": 2016,
+      "title": "Identification of antibiotic-resistant Escherichia coli isolated from a municipal wastewater treatment plant",
+      "authors": "Zanotto C et al.",
+      "journal": "Chemosphere",
+      "scope": "wastewater_amr",
+      "geographic_link": "Impianto municipale nell'area di Milano",
+      "pmid": "27635645",
+      "doi": "10.1016/j.chemosphere.2016.08.040",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/27635645/"
+    },
+    {
+      "id": "saluzzo_vim_bergamo_2025",
+      "year": 2025,
+      "title": "Sustained outbreak of blaVIM-1 harbouring pathogens in an Italian tertiary hospital: Genomic insights into persistence and spreading",
+      "authors": "Saluzzo F et al.",
+      "journal": "Journal of Global Antimicrobial Resistance",
+      "scope": "healthcare_amr",
+      "geographic_link": "Ospedale terziario di Bergamo",
+      "pmid": "40543560",
+      "doi": "10.1016/j.jgar.2025.06.007",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/40543560/"
+    },
+    {
+      "id": "luzzaro_bloodstream_lombardy_2002",
+      "year": 2002,
+      "title": "Prevalence and drug susceptibility of pathogens causing bloodstream infections in northern Italy: a two-year study in 16 hospitals",
+      "authors": "Luzzaro F et al.",
+      "journal": "European Journal of Clinical Microbiology & Infectious Diseases",
+      "scope": "healthcare_amr",
+      "geographic_link": "Sedici ospedali della Lombardia",
+      "pmid": "12525919",
+      "doi": "10.1007/s10096-002-0837-7",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/12525919/"
+    },
+    {
+      "id": "active_cre_surveillance_milan_2024",
+      "year": 2024,
+      "title": "Active Surveillance of Patients Colonized with CRE: A Single-Center Study Based on a Combined Molecular/Culture Protocol",
+      "authors": "Fondazione IRCCS Ca' Granda Ospedale Maggiore Policlinico group",
+      "journal": "Antibiotics",
+      "scope": "healthcare_amr",
+      "geographic_link": "Sorveglianza CRE in un centro ospedaliero di Milano",
+      "pmid": "39596746",
+      "doi": "10.3390/antibiotics13111053",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39596746/"
+    }
+  ]
+}

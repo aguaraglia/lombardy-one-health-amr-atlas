@@ -1,17 +1,12 @@
-# Perimetro della release pubblica Lombardia
+# Ambito pubblico dell'Atlante AMR Lombardia
 
-Stato iniziale: struttura tecnica senza dataset AMR regionali pubblicati.
+La prima base pubblica verificata comprende:
 
-La build pubblica include template, runtime, configurazione e cataloghi. I
-record marcati `candidate`, `verified` o `restricted` non sono caricati dal
-browser. Un file presente sotto `public/` non e' automaticamente pubblicabile:
-deve essere referenziato da un catalogo con stato `public_approved`.
+- confini ISTAT generalizzati al 1 gennaio 2026: 1.502 comuni, 12 province/citta metropolitana e regione;
+- sei indicatori AR-ISS 2024 aggregati per la Lombardia, con numerosita, percentuale, IC 95% e copertura regionale del 53,7%;
+- consumo e spesa complessiva di antibiotici OsMed 2024;
+- sintesi MICROBIO 2023 per adulti, limitata ai 31 presidi pubblici inclusi dal report e accompagnata dai limiti metodologici.
 
-Sono sempre esclusi:
+I confini 2020 di Regione Lombardia (CC0) restano una fonte storica ufficiale ma non sono usati come base corrente, perche riportano 1.506 comuni. SIRe Acque resta candidato: la pagina pubblica descrive il catasto, ma non e stato verificato un export con licenza e granularita adatte alla redistribuzione.
 
-- coordinate di aziende, allevamenti, campioni o pazienti;
-- identificativi individuali o di isolato non gia' pubblicati e necessari;
-- dati clinici granulari;
-- estratti ottenuti da servizi autenticati senza autorizzazione al riuso;
-- inferenze comunali o provinciali non documentate dalla fonte;
-- dati sardi usati come segnaposto.
+Non sono pubblicati record individuali, identificativi di paziente o campione, coordinate cliniche, dati aziendali o di allevamento, dataset autenticati, ne fonti prive di condizioni d'uso e trasformazione verificabili. Gli indicatori regionali non vengono attribuiti a comuni o strutture e non sono combinati in un indice sintetico di rischio.

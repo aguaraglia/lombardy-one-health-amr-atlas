@@ -5,10 +5,13 @@
   "title": "Lombardia One Health AMR Atlas",
   "shortName": "Lombardia One Health",
   "language": "it",
-  "dataStatusLabel": "Struttura pronta; dati regionali in verifica e non ancora pubblicati.",
-  "publicScopeSummary": "Atlante pubblico regionale in preparazione. Nessun valore AMR viene mostrato finche' fonte, licenza, granularita' e limiti interpretativi non sono approvati.",
+  "dataStatusLabel": "Prima base dati ufficiale integrata e verificata il 16 agosto 2026.",
+  "publicScopeSummary": "Confini ISTAT 2026, indicatori AR-ISS 2024, consumo OsMed 2024 e sintesi MICROBIO 2023; fonti candidate senza licenza/export restano escluse.",
   "map": {
-    "center": [45.62, 9.92],
+    "center": [
+      45.62,
+      9.92
+    ],
     "zoom": 7
   },
   "catalogs": {

@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "edition": "lom_amr_atlas",
+  "source_id": "regione_lombardia_microbio_2023",
+  "period": 2023,
+  "geography": "Lombardia",
+  "coverage": {
+    "public_asst": 29,
+    "public_hospital_sites_included": 31,
+    "selection": "presidi con laboratorio di microbiologia e qualita del dato giudicata buona",
+    "private_hospitals_included": false
+  },
+  "bloodstream_infection_events": {
+    "total": 22388,
+    "definition": "eventi BSI adulti, con deduplicazione a 30 giorni secondo metodo del report"
+  },
+  "e_coli_class_resistance": [
+    {
+      "class": "Fluorochinoloni",
+      "resistant": 1384,
+      "isolates": 4321,
+      "percent": 32.03
+    },
+    {
+      "class": "Cefalosporine di terza generazione",
+      "resistant": 1060,
+      "isolates": 4321,
+      "percent": 24.53
+    },
+    {
+      "class": "Aminoglicosidi",
+      "resistant": 602,
+      "isolates": 4321,
+      "percent": 13.93
+    },
+    {
+      "class": "Carbapenemi",
+      "resistant": 5,
+      "isolates": 4321,
+      "percent": 0.12
+    },
+    {
+      "class": "Cefalosporine di terza generazione + fluorochinoloni + aminoglicosidi",
+      "resistant": 341,
+      "isolates": 4321,
+      "percent": 7.89
+    }
+  ],
+  "limitations": [
+    "Il flusso registra singoli flaconi; il report costruisce eventi emocoltura per paziente e giorno.",
+    "Non permette da solo di distinguere con certezza infezioni comunitarie e nosocomiali.",
+    "I dati pubblicati sono aggregati regionali di presidi selezionati; non sono prevalenza della popolazione lombarda."
+  ],
+  "source": {
+    "title": "Report Emocolture 2023 - Analisi dati Regione Lombardia",
+    "pages": "4-16",
+    "url": "https://www.regione.lombardia.it/wps/wcm/connect/ba81b9eb-5f1a-4aa2-ae89-3e5bd1189e21/REGIONE%2BLOMBARDIA_Report_Emocolture_Adulti_2023.pdf?CACHEID=ROOTWORKSPACE-ba81b9eb-5f1a-4aa2-ae89-3e5bd1189e21-pnMQDNp&MOD=AJPERES",
+    "verified_at": "2026-08-16",
+    "local_copy": "not acquired: origin returned HTML to scripted download; values verified against browser-readable official PDF"
+  }
+}

@@ -5,13 +5,14 @@
     {
       "id": "ar_iss_2024_lombardia",
       "title": "AR-ISS 2024 - Lombardia",
-      "publisher": "Istituto Superiore di Sanita'",
+      "publisher": "Istituto Superiore di Sanita",
       "evidence_type": "human_amr_regional",
       "geography": "Lombardia",
       "period": "2024",
-      "source_url": "https://www.epicentro.iss.it/antibiotico-resistenza/ar-iss-rapporto",
-      "publication_status": "candidate",
-      "note": "Il rapporto documenta copertura regionale 53,7%; estrazione delle resistenze e verifica delle tabelle ancora da eseguire."
+      "source_url": "https://www.epicentro.iss.it/antibiotico-resistenza/ar-iss/RIS-5_2025.pdf",
+      "data_file": "public/data/ar_iss_2024_lombardia.json",
+      "publication_status": "public_approved",
+      "note": "Sei combinazioni patogeno-resistenza da sangue/liquor; copertura regionale 53,7%; nessun downscaling."
     },
     {
       "id": "aifa_osmed_2024_lombardia",
@@ -21,19 +22,21 @@
       "geography": "Lombardia",
       "period": "2024",
       "source_url": "https://www.aifa.gov.it/documents/20142/3610201/Lombardia_Osmed_2024.pdf",
-      "publication_status": "candidate",
-      "note": "Fonte regionale ufficiale individuata; indicatori antibiotici, licenza e tabella di estrazione da verificare."
+      "data_file": "public/data/aifa_osmed_2024_lombardia.json",
+      "publication_status": "public_approved",
+      "note": "Antibiotici: 14,7 DDD/1.000 abitanti/die nella tabella di spesa complessiva; consumo, non resistenza."
     },
     {
-      "id": "regione_lombardia_microbio",
-      "title": "MICROBIO - sorveglianza microbiologica regionale",
+      "id": "regione_lombardia_microbio_2023",
+      "title": "MICROBIO - Report Emocolture adulti 2023",
       "publisher": "Regione Lombardia",
       "evidence_type": "human_amr_surveillance",
       "geography": "Lombardia",
-      "period": "da verificare",
-      "source_url": "https://www.regione.lombardia.it/",
-      "publication_status": "candidate",
-      "note": "Individuato report regionale sulle emocolture; recuperare versione, periodo, copertura e condizioni di riuso."
+      "period": "2023",
+      "source_url": "https://www.regione.lombardia.it/wps/wcm/connect/ba81b9eb-5f1a-4aa2-ae89-3e5bd1189e21/REGIONE%2BLOMBARDIA_Report_Emocolture_Adulti_2023.pdf?CACHEID=ROOTWORKSPACE-ba81b9eb-5f1a-4aa2-ae89-3e5bd1189e21-pnMQDNp&MOD=AJPERES",
+      "data_file": "public/data/microbio_2023_lombardia.json",
+      "publication_status": "public_approved",
+      "note": "Aggregato di 31 presidi pubblici selezionati per qualita del dato; 22.388 eventi BSI; limiti del flusso espliciti."
     },
     {
       "id": "arpa_lombardia_sire_acque",
@@ -44,7 +47,7 @@
       "period": "corrente da verificare",
       "source_url": "https://www.arpalombardia.it/temi-ambientali/acqua/acque-reflue/sire-acque/",
       "publication_status": "candidate",
-      "note": "Fonte di contesto, non evidenza AMR; accesso ai dati, licenza e granularita' pubblica da verificare."
+      "note": "Fonte di contesto, non evidenza AMR; nessun export redistribuibile verificato, quindi nessun layer pubblicato."
     }
   ]
 }

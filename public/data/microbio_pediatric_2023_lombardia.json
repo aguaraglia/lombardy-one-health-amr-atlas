@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "edition": "lom_amr_atlas",
+  "source_id": "regione_lombardia_microbio_pediatric_2023",
+  "period": 2023,
+  "geography": "Lombardia",
+  "population": "eta pediatrica, 0 giorni-14 anni",
+  "events": {
+    "bloodstream_infection_total": 1311,
+    "bloodstream_infection_0_90_days": 520,
+    "bloodstream_infection_91_days_14_years": 791,
+    "cerebrospinal_fluid_isolates_total": 36,
+    "cerebrospinal_fluid_0_90_days": 17,
+    "cerebrospinal_fluid_91_days_14_years": 19
+  },
+  "selected_resistance_patterns": [
+    {"pathogen": "Staphylococcus aureus", "antibiotic": "oxacillina", "tested": 86, "resistant": 22, "percent": 25.58, "ci95": "16.78-36.13"},
+    {"pathogen": "Escherichia coli", "antibiotic": "cefotaxime", "tested": 64, "resistant": 3, "percent": 4.69, "ci95": "0.98-13.09"},
+    {"pathogen": "Escherichia coli", "antibiotic": "ciprofloxacina", "tested": 80, "resistant": 16, "percent": 20.0, "ci95": "11.89-30.44"},
+    {"pathogen": "Escherichia coli", "antibiotic": "meropenem", "tested": 58, "resistant": 0, "percent": 0.0, "ci95": null},
+    {"pathogen": "Klebsiella pneumoniae", "antibiotic": "cefotaxime", "tested": 25, "resistant": 10, "percent": 40.0, "ci95": "21.13-61.33"},
+    {"pathogen": "Klebsiella pneumoniae", "antibiotic": "meropenem", "tested": 27, "resistant": 5, "percent": 18.52, "ci95": "6.30-38.08"},
+    {"pathogen": "Klebsiella pneumoniae", "antibiotic": "imipenem", "tested": 22, "resistant": 5, "percent": 22.73, "ci95": "7.82-45.37"},
+    {"pathogen": "Pseudomonas aeruginosa", "antibiotic": "imipenem", "tested": 29, "resistant": 2, "percent": 6.9, "ci95": "0.85-22.77"},
+    {"pathogen": "Pseudomonas aeruginosa", "antibiotic": "meropenem", "tested": 26, "resistant": 0, "percent": 0.0, "ci95": null}
+  ],
+  "limitations": [
+    "Gli antibiogrammi hanno denominatori diversi per patogeno e antibiotico.",
+    "Alcune stime hanno numerosita ridotte e intervalli di confidenza ampi.",
+    "Il report non consente di distinguere automaticamente infezioni comunitarie e correlate all'assistenza.",
+    "Le tabelle per singola struttura non sono ripubblicate nell'atlante."
+  ],
+  "source": {
+    "title": "Report infezioni invasive pediatriche - 2023",
+    "publisher": "Regione Lombardia",
+    "pages": "4-17",
+    "url": "https://www.regione.lombardia.it/content/dam/rl/canali-tematici-servizi/01-sanita/05-prevenzione-e-stili-di-vita/red-antimicrobico-resistenza/allegati/REGIONE%2BLOMBARDIA_Report%2BInfezioni%2Binvasive%2Bpediatriche_2023.pdf",
+    "acquired_at": "2026-08-16",
+    "sha256": "757CF0F72B03989C1FBCDB0F37B914A8FF91252AD8DA6F329E0EE4C01985C060"
+  }
+}

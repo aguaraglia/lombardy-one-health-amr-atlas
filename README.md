@@ -5,9 +5,9 @@ Edizione regionale `lom_amr_atlas`, costruita sulla base condivisa
 
 ## Stato
 
-La struttura applicativa e' pronta, ma non contiene ancora dataset AMR
-lombardi pubblicati. Le fonti candidate sono registrate nei metadati e nel
-catalogo; il runtime le ignora finche' non diventano `public_approved`.
+La struttura applicativa contiene una prima base pubblica verificata di dati
+AMR umani, uso di antibiotici e contesto One Health lombardo. Il runtime carica
+soltanto le fonti marcate `public_approved` nei cataloghi.
 
 ## Build locale
 

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "edition": "lom_amr_atlas",
+  "source_id": "arpa_lombardia_sire_2025_summary",
+  "period": 2025,
+  "geography": "Lombardia",
+  "domain": "wastewater_context",
+  "source_table": {
+    "worksheet": "format 25",
+    "source_rows": 1513,
+    "source_columns": 73
+  },
+  "regional_aggregates": {
+    "generated_load_ae_sum": 18844231,
+    "controls_planned_sum": 5524,
+    "controls_executed_sum": 7014,
+    "rows_flagged_non_regolamentare_for_inadequate_control_number_or_mode": 33
+  },
+  "limitations": [
+    "Contesto di depurazione e controllo degli scarichi: non contiene misure di antibiotico-resistenza.",
+    "I totali sono somme descrittive dei campi del foglio ufficiale e non costituiscono indicatori epidemiologici o un tasso di conformita.",
+    "Il file pubblico non redistribuisce righe, nomi, codici o note dei singoli impianti; pubblica soltanto aggregati regionali verificabili.",
+    "ARPA richiede che ogni ulteriore elaborazione citi la fonte."
+  ],
+  "source": {
+    "title": "Dati complessivi conformita e valutazioni 2025",
+    "publisher": "ARPA Lombardia",
+    "url": "https://sireacque.arpalombardia.it/info.asp",
+    "download_url": "https://sireacque.arpalombardia.it/download/Dati%20complessivi%20conformit%C3%A0%20e%20valutazioni_2025.zip",
+    "acquired_at": "2026-08-16",
+    "sha256": "CA43641868FC330C630E85AEEB12D5A787ABC0FA3A44D93199A96F3F8BFFF30A"
+  }
+}

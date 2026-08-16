@@ -66,6 +66,29 @@
         "name",
         "istat_code"
       ]
+    },
+    {
+      "id": "lombardia_hydrography_rip_aipo",
+      "label": "Reticolo idrografico principale (Regione Lombardia)",
+      "file": "public/geography/atlas_hydrography.geojson",
+      "publication_status": "public_approved",
+      "publisher": "Regione Lombardia",
+      "source_url": "https://www.dati.lombardia.it/Territorio/RETICOLO-IDROGRAFICO-REGIONALE-UNIFICATO/2398-zrim",
+      "license_status": "IODL 2.0 secondo la licenza generale del portale, salvo eccezioni non indicate nella scheda",
+      "validation_status": "passed",
+      "feature_count": 975,
+      "source_date": "snapshot acquisito 2026-08-16",
+      "defaultVisible": false,
+      "color": "#3b82a0",
+      "weight": 1,
+      "fillOpacity": 0,
+      "labelProperty": "name",
+      "popupFields": [
+        "name",
+        "network_type",
+        "kind",
+        "source_code"
+      ]
     }
   ]
 }

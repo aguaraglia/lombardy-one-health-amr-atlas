@@ -44,10 +44,46 @@
       "publisher": "ARPA Lombardia",
       "evidence_type": "wastewater_context",
       "geography": "Lombardia",
-      "period": "corrente da verificare",
+      "period": "2025",
       "source_url": "https://www.arpalombardia.it/temi-ambientali/acqua/acque-reflue/sire-acque/",
       "publication_status": "candidate",
-      "note": "Fonte di contesto, non evidenza AMR; nessun export redistribuibile verificato, quindi nessun layer pubblicato."
+      "note": "Il catasto completo resta una fonte operativa; nel runtime e pubblicata soltanto la sintesi regionale 2025 verificata, non le righe impianto."
+    },
+    {
+      "id": "regione_lombardia_aware_2025",
+      "title": "AWaRe 2025 - consumo territoriale per ASST",
+      "publisher": "Regione Lombardia",
+      "evidence_type": "human_antimicrobial_use",
+      "geography": "Lombardia / ASST",
+      "period": "2025",
+      "source_url": "https://www.regione.lombardia.it/content/dam/rl/canali-tematici-servizi/01-sanita/05-prevenzione-e-stili-di-vita/red-antimicrobico-resistenza/allegati/2026_01_22%20Report%20AWaRe%202025.pdf",
+      "data_file": "public/data/aware_2025_lombardia.json",
+      "publication_status": "public_approved",
+      "note": "Quote Access/Watch/Reserve per 25 ASST e fasce d'eta; consumo territoriale, non ospedaliero e non resistenza."
+    },
+    {
+      "id": "regione_lombardia_pps3",
+      "title": "PPS-3 Lombardia - ICA, antimicrobici e resistenze",
+      "publisher": "Regione Lombardia",
+      "evidence_type": "healthcare_amr_point_prevalence",
+      "geography": "Lombardia",
+      "period": "novembre-dicembre 2022",
+      "source_url": "https://www.regione.lombardia.it/content/dam/rl/canali-tematici-servizi/01-sanita/05-prevenzione-e-stili-di-vita/red-antimicrobico-resistenza/allegati/REPORT%2BPPS-3.pdf",
+      "data_file": "public/data/pps3_lombardia.json",
+      "publication_status": "public_approved",
+      "note": "28 strutture, 12.412 pazienti; prevalenza puntuale con copertura e limiti espliciti."
+    },
+    {
+      "id": "arpa_lombardia_sire_2025_summary",
+      "title": "SIRe Acque 2025 - sintesi regionale controlli e carichi",
+      "publisher": "ARPA Lombardia",
+      "evidence_type": "wastewater_context",
+      "geography": "Lombardia",
+      "period": "2025",
+      "source_url": "https://sireacque.arpalombardia.it/info.asp",
+      "data_file": "public/data/sire_wastewater_2025_lombardia.json",
+      "publication_status": "public_approved",
+      "note": "Aggregati regionali da 1.513 righe impianto; contesto ambientale, non evidenza AMR; nessuna riga impianto redistribuita."
     }
   ]
 }

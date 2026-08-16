@@ -2,30 +2,28 @@
 
 ## Esito
 
-Integrata una prima base ufficiale e pubblicabile: geografia ISTAT 2026, AR-ISS 2024, OsMed 2024 e MICROBIO 2023. Nessun dato puntuale o riservato e stato acquisito o pubblicato.
+La base ufficiale pubblicabile comprende ora geografia ISTAT 2026, AR-ISS 2024, OsMed 2024, MICROBIO 2023, AWaRe 2025, PPS-3, una sintesi regionale SIRe 2025 e il reticolo idrografico principale. Nessun dato individuale, clinico puntuale o riservato e stato acquisito o pubblicato.
 
-## Geografia
+## Nuove evidenze sanitarie
 
-- Scartata come base corrente la serie regionale 2020: 1.506 comuni.
-- Adottato ISTAT 1 gennaio 2026, versione generalizzata: 1.502 comuni, 12 province/citta metropolitana, 1 regione.
-- Conversione riproducibile da EPSG:32632 a EPSG:4326 con `scripts/build_istat_geography.py`.
-- Il pacchetto dichiara UTF-8 ma non contiene file CPG e almeno un record nazionale non e decodificabile come CP1252. Per i record lombardi Latin-1 non produce caratteri di controllo; la scelta e registrata nello script.
+- AWaRe 2025: quote Access/Watch/Reserve per 25 ASST, con popolazione generale, under 14 e over 65. Il dato riguarda consumi territoriali dei residenti e non include l'uso ospedaliero.
+- PPS-3: 28 strutture per acuti, 39 presidi e 12.412 pazienti rilevati tra novembre e dicembre 2022. Pubblicati aggregati su ICA, uso di antimicrobici e sette pattern di resistenza, con copertura e limiti del report.
+- I valori presenti solo nei grafici regionali AWaRe non sono stati trascritti: le tabelle ASST sono state estratte senza ambiguita dal PDF ufficiale.
 
-## Evidenze sanitarie
+## Contesto ambientale
 
-- AR-ISS: sei combinazioni regionali da sangue/liquor, con copertura 53,7%. Nessun downscaling.
-- OsMed: antibiotici 14,7 DDD/1.000 abitanti/die; indicatore di consumo, non resistenza.
-- MICROBIO: 31 presidi pubblici selezionati per qualita del dato, 22.388 eventi BSI adulti; conservati i limiti su definizione degli eventi e distinzione comunitario/nosocomiale.
+- SIRe 2025: acquisiti due ZIP ufficiali ARPA. Il foglio completo contiene 1.513 righe dati e 73 colonne; il sito pubblica solo aggregati regionali (18.844.231 AE di carico generato sommato, 5.524 controlli previsti, 7.014 eseguiti e 33 righe marcate non regolamentari per numero/modalita di controllo). Non sono misure AMR.
+- Reticolo idrografico: archivio ufficiale da 60 MB, EPSG:32632. La build usa soltanto RIP (899 linee) e AIPO (76 linee), trasformati in WGS84 e semplificati; RIB e RIM restano esclusi.
 
-## Fonti non integrate
+## Fonti ancora da recuperare
 
-- SIRe Acque: nessun export/licenza verificato; resta candidato.
-- BDN, agricoltura e veterinaria IZSLER: da acquisire in una fase successiva con la stessa procedura di snapshot, licenza, aggregazione e QA.
+- evidenze veterinarie lombarde separabili da IZSLER, non sole linee guida;
+- consistenze zootecniche regionali BDN/VetInfo con licenza e data verificabili;
+- studi peer-reviewed lombardi su filiera alimentare, fauna e ambiente con dati misurati.
 
-## QA
+## QA e limiti tecnici
 
-- Tutti i JSON/GeoJSON sono parseabili.
-- Conteggi e bounds geografici verificati.
-- Hash raw registrati in `metadata/SNAPSHOTS.tsv`.
-- AR-ISS e OsMed verificati con estrazione testuale e rendering delle pagine; il visualizzatore PNG dell'app non era disponibile per `helper_unknown_error`.
-- Il PDF MICROBIO e leggibile via fonte ufficiale nel browser, ma il server restituisce HTML ai download scriptati; il PDF non e redistribuito localmente.
+- PDF AWaRe e PPS-3 acquisiti in snapshot raw con SHA-256 e verificati tramite estrazione testuale locale e fonte ufficiale online.
+- Il rendering locale dei grafici AWaRe e stato prodotto con Poppler, ma la visualizzazione nell'app e fallita per helper_unknown_error; per prudenza sono stati esclusi i valori non presenti come testo.
+- L'XLSX SIRe e stato importato in sola lettura con artifact-tool; nessuna riga impianto viene redistribuita.
+- I venv creati dentro Google Drive sono risultati incompleti/corrotti durante la sincronizzazione; la trasformazione GIS usa uv con ambiente effimero in cache.

@@ -1,0 +1,18 @@
+{
+  "id": "lom_amr_atlas",
+  "regionCode": "LOM",
+  "regionName": "Lombardia",
+  "title": "Lombardia One Health AMR Atlas",
+  "shortName": "Lombardia One Health",
+  "language": "it",
+  "dataStatusLabel": "Struttura pronta; dati regionali in verifica e non ancora pubblicati.",
+  "publicScopeSummary": "Atlante pubblico regionale in preparazione. Nessun valore AMR viene mostrato finche' fonte, licenza, granularita' e limiti interpretativi non sono approvati.",
+  "map": {
+    "center": [45.62, 9.92],
+    "zoom": 7
+  },
+  "catalogs": {
+    "layers": "public/data/layer-catalog.json",
+    "evidence": "public/data/evidence-catalog.json"
+  }
+}

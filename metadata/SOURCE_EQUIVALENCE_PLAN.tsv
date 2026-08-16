@@ -1,0 +1,13 @@
+sardinia_runtime_role	sardinia_source	lombardia_candidate	status	next_gate
+administrative_geography	RAS DBGT 10K V05	Regione Lombardia Open Data - limiti amministrativi	candidate	license CRS version feature counts geometry validation
+human_amr_regional	ISS AR-ISS 2024 Sardegna	ISS AR-ISS 2024 Lombardia	candidate	extract regional observations and verify denominators
+human_amr_facility	AOU Sassari and published local studies	Regione Lombardia MICROBIO and peer-reviewed facility studies	candidate	define public geography and avoid residence inference
+antimicrobial_use	AIFA OsMed Sardegna 2024	AIFA OsMed Lombardia 2024	candidate	extract antibiotic indicators with page-level provenance
+livestock_context	VetInfo BDN Sardegna 2025	VetInfo BDN Lombardia	candidate	acquire current regional aggregates
+veterinary_amr	IZS Sardegna and published studies	IZSLER and Lombardy-specific literature	candidate	identify separable public evidence
+food_chain_amr	Berchidda study	Lombardy-specific peer-reviewed food-chain studies	candidate	reproducible literature search and eligibility review
+wildlife_amr	Sardinia wild-boar study	Lombardy-specific wildlife literature	candidate	reproducible literature search and geography review
+environmental_amr	published Sardinian water-body evidence	Lombardy wastewater and environmental studies	candidate	separate measured AMR from planned surveillance
+hydrography	RAS DBGT watercourses	Regione Lombardia/ARPA official hydrography	candidate	license CRS topology and cartographic-versus-hydrologic limits
+wastewater_context	SIRA depurators	ARPA Lombardia SIRe Acque	candidate	access license coverage date and public granularity
+methodology	PNCAR and international guidance	shared national/international guidance	candidate	version and citation review

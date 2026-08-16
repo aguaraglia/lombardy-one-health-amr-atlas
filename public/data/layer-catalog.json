@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "edition": "lom_amr_atlas",
+  "layers": [
+    {
+      "id": "lombardia_administrative_boundaries",
+      "label": "Limiti amministrativi Lombardia",
+      "file": "public/geography/atlas_municipalities.geojson",
+      "publication_status": "candidate",
+      "publisher": "Regione Lombardia Open Data",
+      "source_url": "https://www.dati.lombardia.it/Territorio/Limiti-amministrativi-Regione-Lombardia-2020-con-a/b7fb-r6ie",
+      "license_status": "to_verify",
+      "validation_status": "not_started",
+      "defaultVisible": true,
+      "color": "#2d7d61",
+      "weight": 0.8,
+      "fillOpacity": 0.05,
+      "labelProperty": "name",
+      "popupFields": ["name", "istat_code"]
+    }
+  ]
+}

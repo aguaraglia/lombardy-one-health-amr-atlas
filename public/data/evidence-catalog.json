@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "edition": "lom_amr_atlas",
+  "records": [
+    {
+      "id": "ar_iss_2024_lombardia",
+      "title": "AR-ISS 2024 - Lombardia",
+      "publisher": "Istituto Superiore di Sanita'",
+      "evidence_type": "human_amr_regional",
+      "geography": "Lombardia",
+      "period": "2024",
+      "source_url": "https://www.epicentro.iss.it/antibiotico-resistenza/ar-iss-rapporto",
+      "publication_status": "candidate",
+      "note": "Il rapporto documenta copertura regionale 53,7%; estrazione delle resistenze e verifica delle tabelle ancora da eseguire."
+    },
+    {
+      "id": "aifa_osmed_2024_lombardia",
+      "title": "AIFA OsMed 2024 - Regione Lombardia",
+      "publisher": "Agenzia Italiana del Farmaco",
+      "evidence_type": "human_antimicrobial_use",
+      "geography": "Lombardia",
+      "period": "2024",
+      "source_url": "https://www.aifa.gov.it/documents/20142/3610201/Lombardia_Osmed_2024.pdf",
+      "publication_status": "candidate",
+      "note": "Fonte regionale ufficiale individuata; indicatori antibiotici, licenza e tabella di estrazione da verificare."
+    },
+    {
+      "id": "regione_lombardia_microbio",
+      "title": "MICROBIO - sorveglianza microbiologica regionale",
+      "publisher": "Regione Lombardia",
+      "evidence_type": "human_amr_surveillance",
+      "geography": "Lombardia",
+      "period": "da verificare",
+      "source_url": "https://www.regione.lombardia.it/",
+      "publication_status": "candidate",
+      "note": "Individuato report regionale sulle emocolture; recuperare versione, periodo, copertura e condizioni di riuso."
+    },
+    {
+      "id": "arpa_lombardia_sire_acque",
+      "title": "SIRe Acque - catasto scarichi e impianti",
+      "publisher": "ARPA Lombardia",
+      "evidence_type": "wastewater_context",
+      "geography": "Lombardia",
+      "period": "corrente da verificare",
+      "source_url": "https://www.arpalombardia.it/temi-ambientali/acqua/acque-reflue/sire-acque/",
+      "publication_status": "candidate",
+      "note": "Fonte di contesto, non evidenza AMR; accesso ai dati, licenza e granularita' pubblica da verificare."
+    }
+  ]
+}

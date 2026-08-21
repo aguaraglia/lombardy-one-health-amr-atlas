@@ -8,7 +8,9 @@ Sito pubblico: <https://aguaraglia.github.io/lombardy-one-health-amr-atlas/>
 ## Stato
 
 La struttura applicativa contiene una base pubblica verificata di dati AMR
-umani, uso di antibiotici e contesto One Health lombardo. La mappa comprende
+umani, uso di antibiotici e contesto One Health lombardo, piu una coorte
+veterinaria IZSLER su Salmonella in stalle da latte di Cremona e Mantova
+(2021-2022; evidenza di studio, non prevalenza regionale). La mappa comprende
 confini ISTAT 2026, reticolo idrografico principale e indicatori SIRe 2025
 aggregati per provincia. Il runtime carica soltanto le fonti marcate
 `public_approved` nei cataloghi.

@@ -7,9 +7,12 @@
   "brandIcon": "public/brand/lombardia-region-mark.svg",
   "language": "it",
   "dataStatusLabel": "Base dati ufficiale verificata ed estesa il 16 agosto 2026.",
-  "publicScopeSummary": "Confini ISTAT 2026; AR-ISS 2024; OsMed 2024; MICROBIO 2023; AWaRe 2025; PPS-3; reticolo idrografico; 480 depuratori urbani georiferiti; aggregati SIRe 2025 per provincia e letteratura scientifica lombarda.",
+  "publicScopeSummary": "Confini ISTAT 2026; AR-ISS 2024; OsMed 2024; MICROBIO 2023; AWaRe 2025; PPS-3; reticolo idrografico; 480 depuratori urbani georiferiti; aggregati SIRe 2025 per provincia e letteratura scientifica lombarda; coorte IZSLER Salmonella da latte CR/MN 2021-2022 (studio, non prevalenza).",
   "map": {
-    "center": [45.62, 9.92],
+    "center": [
+      45.62,
+      9.92
+    ],
     "zoom": 7
   },
   "catalogs": {

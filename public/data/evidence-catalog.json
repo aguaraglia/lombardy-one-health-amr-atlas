@@ -129,6 +129,41 @@
       "data_file": "public/data/sire_wastewater_2025_lombardia.json",
       "publication_status": "public_approved",
       "note": "Aggregati regionali da 1.513 righe impianto; contesto ambientale, non evidenza AMR; nessuna riga impianto redistribuita."
+    },
+    {
+      "id": "izsler_salmonella_dairy_cr_mn_2021_2022",
+      "title": "IZSLER - Salmonella in stalle da latte, Cremona e Mantova 2021-2022",
+      "publisher": "IZSLER",
+      "evidence_type": "veterinary_amr",
+      "geography": "Province di Cremona e Mantova",
+      "period": "2021-2022",
+      "source_url": "https://doi.org/10.3390/ani14142043",
+      "data_file": "public/data/izsler_salmonella_dairy_cr_mn_2021_2022.json",
+      "publication_status": "public_approved",
+      "note": "Coorte diagnostica IZSLER (118 stalle, 51 isolati con MIC). Non prevalenza regionale; nessun identificativo aziendale."
+    },
+    {
+      "id": "izsler_mrsa_heavypig_lombardy_2016_2018",
+      "title": "IZSLER - MRSA in filiera suina pesante, Lombardia 2016-2018",
+      "publisher": "IZSLER",
+      "evidence_type": "veterinary_amr",
+      "geography": "Lombardia",
+      "period": "2016-2018",
+      "source_url": "https://doi.org/10.3390/foods9091141",
+      "data_file": "public/data/izsler_mrsa_heavypig_lombardy_2016_2018.json",
+      "publication_status": "public_approved",
+      "note": "88 unita di ingrasso, 87 isolati MRSA. CC BY. Coorte di studio, non prevalenza regionale corrente; nessun identificativo aziendale."
+    },
+    {
+      "id": "izsler_mrsa_btm_lombardy_2012_2013",
+      "title": "IZSLER - S. aureus e MRSA nel latte di massa, Lombardia 2012-2013",
+      "publisher": "IZSLER / IZSLT",
+      "evidence_type": "veterinary_amr",
+      "geography": "Lombardia",
+      "period": "2012-2013",
+      "source_url": "https://doi.org/10.1017/S0950268816001576",
+      "publication_status": "candidate",
+      "note": "Gia in literature-catalog (PMID 27457497). Geografia regionale e tabella provinciale, ma licenza Cambridge/PMC non CC BY verificata: non estrarre tabelle finche la riutilizzabilita non e chiara."
     }
   ]
 }

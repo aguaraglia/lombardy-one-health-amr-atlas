@@ -1,8 +1,20 @@
 {
   "schema_version": "1.0",
   "edition": "lom_amr_atlas",
-  "selection_note": "Selezione curata e aggiornata il 2026-08-16: studi regionali o locali con collegamento territoriale esplicito alla Lombardia. Non equivale a una revisione sistematica e gli studi locali non sono trasformati automaticamente in stime regionali.",
+  "selection_note": "Selezione curata e aggiornata il 2026-08-21: studi regionali o locali con collegamento territoriale esplicito alla Lombardia. Non equivale a una revisione sistematica e gli studi locali non sono trasformati automaticamente in stime regionali.",
   "records": [
+    {
+      "id": "pubmed_39061505",
+      "year": 2024,
+      "title": "Detection and Phenotypic Antimicrobial Susceptibility of Salmonella enterica Serotypes in Dairy Cattle Farms in the Po Valley, Northern Italy.",
+      "authors": "Parolini F et al.",
+      "journal": "Animals : an open access journal from MDPI",
+      "scope": "veterinary_amr",
+      "geographic_link": "Isolati diagnostici IZSLER da stalle da latte delle province di Cremona e Mantova",
+      "pmid": "39061505",
+      "doi": "10.3390/ani14142043",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39061505/"
+    },
     {
       "id": "pubmed_42203922",
       "year": 2026,

@@ -13,6 +13,8 @@ La base pubblica verificata comprende:
 - conteggi SIRe 2025 aggregati per provincia, ricavati dai 23 consuntivi ufficiali e pubblicati senza identificativi o coordinate di impianto;
 - reticolo idrografico principale RIP/AIPO di Regione Lombardia, trasformato in WGS84 e semplificato per uso cartografico;
 - 480 impianti di trattamento delle acque reflue urbane georiferiti dal servizio cartografico pubblico di Regione Lombardia, mantenuti distinti dai dati SIRe 2025 e dai punti di campionamento AMR;
+- coorte diagnostica IZSLER su Salmonella enterica in stalle da latte delle province di Cremona e Mantova (2021-2022; 118 aziende, 51 isolati con MIC); evidenza di studio, non prevalenza regionale e senza identificativi aziendali;
+- coorte IZSLER su MRSA in 88 unita di ingrasso suino lombarde (2016-2018; 87 isolati aggregati, CC BY); non prevalenza regionale corrente e senza identificativi aziendali;
 - letteratura scientifica con collegamento territoriale esplicito alla Lombardia, mantenuta distinta dai dataset.
 
 Gli export SIRe 2025 sono conservati come snapshot raw esclusi da Git e non vengono redistribuiti a livello di singola riga. Il layer puntuale usa invece un servizio cartografico regionale pubblico separato, con soli campi essenziali e con l'anno del rilievo esplicitato. Il reticolo minore e di bonifica non è incluso nella build per evitare un layer sproporzionato e non necessario.

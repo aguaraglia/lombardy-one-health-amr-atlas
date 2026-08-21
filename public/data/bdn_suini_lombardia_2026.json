@@ -1,0 +1,20 @@
+{
+  "title": "BDN - consistenza suini, Lombardia",
+  "source": "Ministero della Salute, Sistema Informativo Veterinario - Statistiche BDN",
+  "source_url": "https://teseo.clal.it/index.php?section=allevamenti-capi-suini-italia",
+  "vetinfo_url": "https://www.vetinfo.it/j6_statistiche/index.html#/report-pbi/31",
+  "observation_date": "2026-06-30",
+  "geographic_level": "REGIONE",
+  "unit": "capi registrati",
+  "holdings": 2113,
+  "method_note": "Aggregato regionale BDN a giugno 2026, letto dalla riedizione pubblica TESEO/CLAL (fonte dichiarata: BDN d.lgs. 134/22). Non contiene coordinate ne identificativi aziendali. Non e un indicatore AMR. Solo allevamenti da ingrasso e da riproduzione; esclusi gli familiari se TESEO li esclude.",
+  "citation": "Dati forniti dalla BDN dell'Anagrafe Zootecnica istituita dal Ministero della Salute presso il CSN dell'Istituto G. Caporale di Teramo.",
+  "records": [
+    {
+      "region": "LOMBARDIA",
+      "species": "SUINI",
+      "heads": 3949063,
+      "holdings": 2113
+    }
+  ]
+}

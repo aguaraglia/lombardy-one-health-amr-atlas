@@ -164,6 +164,42 @@
       "source_url": "https://doi.org/10.1017/S0950268816001576",
       "publication_status": "candidate",
       "note": "Gia in literature-catalog (PMID 27457497). Geografia regionale e tabella provinciale, ma licenza Cambridge/PMC non CC BY verificata: non estrarre tabelle finche la riutilizzabilita non e chiara."
+    },
+    {
+      "id": "bdn_bovini_lombardia_2026",
+      "title": "BDN - bovini Lombardia giugno 2026",
+      "publisher": "Ministero della Salute - VetInfo/BDN",
+      "evidence_type": "livestock_context",
+      "geography": "Lombardia",
+      "period": "2026-06",
+      "source_url": "https://teseo.clal.it/index.php?section=allevamenti-capi-bovini-italia",
+      "data_file": "public/data/bdn_bovini_lombardia_2026.json",
+      "publication_status": "public_approved",
+      "note": "1.492.937 capi, 10.336 allevamenti. Aggregato regionale BDN; contesto zootecnico, non AMR."
+    },
+    {
+      "id": "bdn_suini_lombardia_2026",
+      "title": "BDN - suini Lombardia giugno 2026",
+      "publisher": "Ministero della Salute - VetInfo/BDN",
+      "evidence_type": "livestock_context",
+      "geography": "Lombardia",
+      "period": "2026-06",
+      "source_url": "https://teseo.clal.it/index.php?section=allevamenti-capi-suini-italia",
+      "data_file": "public/data/bdn_suini_lombardia_2026.json",
+      "publication_status": "public_approved",
+      "note": "3.949.063 capi, 2.113 allevamenti da ingrasso/riproduzione. Aggregato regionale BDN; non AMR."
+    },
+    {
+      "id": "bdn_ovicaprini_lombardia_2026",
+      "title": "BDN - ovicaprini Lombardia giugno 2026",
+      "publisher": "Ministero della Salute - VetInfo/BDN",
+      "evidence_type": "livestock_context",
+      "geography": "Lombardia",
+      "period": "2026-06",
+      "source_url": "https://teseo.clal.it/index.php?section=allevamenti-capi-ovicaprini-italia",
+      "data_file": "public/data/bdn_ovicaprini_lombardia_2026.json",
+      "publication_status": "public_approved",
+      "note": "80.353 ovini e 62.001 caprini in 4.561 allevamenti. Aggregato regionale BDN; non AMR."
     }
   ]
 }

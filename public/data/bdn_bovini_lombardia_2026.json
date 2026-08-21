@@ -1,0 +1,21 @@
+{
+  "title": "BDN - consistenza bovini, Lombardia",
+  "source": "Ministero della Salute, Sistema Informativo Veterinario - Statistiche BDN",
+  "source_url": "https://teseo.clal.it/index.php?section=allevamenti-capi-bovini-italia",
+  "vetinfo_url": "https://www.vetinfo.it/j6_statistiche/index.html#/report-pbi/11",
+  "observation_date": "2026-06-30",
+  "geographic_level": "REGIONE",
+  "activity_type": "ALLEVAMENTO",
+  "unit": "capi registrati",
+  "holdings": 10336,
+  "method_note": "Aggregato regionale BDN a giugno 2026, letto dalla riedizione pubblica TESEO/CLAL (fonte dichiarata: BDN d.lgs. 134/22). Non contiene coordinate ne identificativi aziendali. Non e un indicatore AMR. Orientamento latte/carne/misto; maschi e femmine 0-24+ mesi.",
+  "citation": "Dati forniti dalla BDN dell'Anagrafe Zootecnica istituita dal Ministero della Salute presso il CSN dell'Istituto G. Caporale di Teramo.",
+  "records": [
+    {
+      "region": "LOMBARDIA",
+      "species": "BOVINI",
+      "heads": 1492937,
+      "holdings": 10336
+    }
+  ]
+}

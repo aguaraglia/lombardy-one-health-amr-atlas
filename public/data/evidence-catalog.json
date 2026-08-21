@@ -200,6 +200,65 @@
       "data_file": "public/data/bdn_ovicaprini_lombardia_2026.json",
       "publication_status": "public_approved",
       "note": "80.353 ovini e 62.001 caprini in 4.561 allevamenti. Aggregato regionale BDN; non AMR."
+    },
+    {
+      "id": "caltagirone_oltrepo_water_2014_2015",
+      "title": "Enterobacterales ESBL/KPC/MCR in acque dell'Oltrepo Pavese, 2014-2015",
+      "publisher": "Universita di Pavia / Frontiers",
+      "evidence_type": "environmental_amr",
+      "geography": "Oltrepo Pavese (Pavia)",
+      "period": "2014-2015",
+      "source_url": "https://doi.org/10.3389/fmicb.2017.02232",
+      "data_file": "public/data/caltagirone_oltrepo_water_2014_2015.json",
+      "publication_status": "public_approved",
+      "note": "246 campioni da pozzi, corsi d'acqua e depuratori. CC BY. Studio locale, non prevalenza regionale; nessun ID impianto."
+    },
+    {
+      "id": "abualshaar_pavia_water_2019",
+      "title": "E. coli ST131 OXA-244 e KPC in acque urbane di Pavia, 2019",
+      "publisher": "Universita di Pavia / Frontiers",
+      "evidence_type": "environmental_amr",
+      "geography": "Pavia urbana/periurbana",
+      "period": "2019-05",
+      "source_url": "https://doi.org/10.3389/fmicb.2022.920319",
+      "data_file": "public/data/abualshaar_pavia_water_2019.json",
+      "publication_status": "public_approved",
+      "note": "18 campioni, 12 siti, 30 Enterobacterales. CC BY. Campagna puntuale, non prevalenza regionale."
+    },
+    {
+      "id": "rapi_wildbirds_vanzago_2024",
+      "title": "Gram-negativi AMR in uccelli selvatici al CRAS Vanzago, 2024",
+      "publisher": "Universita di Milano / Animals MDPI",
+      "evidence_type": "wildlife_amr",
+      "geography": "CRAS Vanzago (Lombardia)",
+      "period": "2024",
+      "source_url": "https://doi.org/10.3390/ani15152289",
+      "data_file": "public/data/rapi_wildbirds_vanzago_2024.json",
+      "publication_status": "public_approved",
+      "note": "112 uccelli, 157 isolati Gram-negativi. CC BY. Coorte da centro recupero, non prevalenza della fauna libera."
+    },
+    {
+      "id": "raineri_hedgehog_3gcr_2023_2024",
+      "title": "E. coli 3GC-R in ricci europei da un CRAS lombardo, 2023-2024",
+      "publisher": "IZSLER / Universita di Milano / Vet Res Commun",
+      "evidence_type": "wildlife_amr",
+      "geography": "Milano, Varese, Como, Monza Brianza",
+      "period": "2023-2024",
+      "source_url": "https://doi.org/10.1007/s11259-026-11356-4",
+      "data_file": "public/data/raineri_hedgehog_3gcr_2023_2024.json",
+      "publication_status": "public_approved",
+      "note": "25/49 ricci (51%) con E. coli 3GC-R. CC BY 4.0. Coorte da centro recupero, non prevalenza della fauna libera."
+    },
+    {
+      "id": "simon_mrsa_pigchain_lombardy_2019",
+      "title": "MRSA nella filiera suina lombarda (allevamento e macello)",
+      "publisher": "IZSLER / Universita di Parma / IJFS",
+      "evidence_type": "food_chain_amr",
+      "geography": "Lombardia",
+      "period": "circa 2019",
+      "source_url": "https://doi.org/10.4081/ijfs.2020.8412",
+      "publication_status": "candidate",
+      "note": "50 unita di ingrasso; 25 MRSA/400 campioni (6.25%); 4.8% in allevamento, 8.7% al macello. Open access PAGEPress ma licenza CC BY non confermata; parziale overlap con Rodriguez-Lopez 2020 gia pubblicato. Non estrarre tabelle isolate-level."
     }
   ]
 }

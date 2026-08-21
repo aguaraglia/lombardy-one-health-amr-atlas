@@ -1,0 +1,155 @@
+{
+  "schema_version": "1.0",
+  "edition": "lom_amr_atlas",
+  "source_id": "rapi_wildbirds_vanzago_2024",
+  "dataset_version": "atlas-curated-v0.1",
+  "privacy": "public_aggregate",
+  "geography_level": "STUDIO_LOCALE",
+  "geography": "CRAS WWF Vanzago (Lombardia); ricoveri da circa 70% del territorio regionale",
+  "host": "uccelli selvatici",
+  "matrix": [
+    "contenuto intestinale / tampone cloacale post mortem"
+  ],
+  "period": "2024-03/2024-08",
+  "scope": "coorte da centro recupero; non prevalenza della fauna libera",
+  "cohort": {
+    "birds": 112,
+    "species": 37,
+    "orders": 13,
+    "gramneg_isolates": 157,
+    "enterobacterales": 148
+  },
+  "species_counts": [
+    {
+      "species": "Escherichia coli",
+      "n": 66,
+      "note": "44.6% degli Enterobacterales; 59% degli uccelli"
+    },
+    {
+      "species": "Proteus mirabilis",
+      "n": 31
+    },
+    {
+      "species": "Salmonella spp.",
+      "n": 11,
+      "note": "9.8% degli uccelli"
+    },
+    {
+      "species": "Klebsiella pneumoniae",
+      "n": 10
+    },
+    {
+      "species": "Pseudomonas aeruginosa",
+      "n": 5
+    },
+    {
+      "species": "Acinetobacter baumannii",
+      "n": 1
+    }
+  ],
+  "indicators": [
+    {
+      "code": "MDR_GN",
+      "pathogen": "Gram-negativi",
+      "resistance": "MDR (>=3 classi)",
+      "isolates": 157,
+      "resistant": 24,
+      "percent": 15.3
+    },
+    {
+      "code": "CESBL",
+      "pathogen": "Gram-negativi",
+      "resistance": "fenotipo compatibile ESBL",
+      "isolates": 157,
+      "resistant": 5,
+      "percent": 3.2
+    },
+    {
+      "code": "CESBL_KPN",
+      "pathogen": "K. pneumoniae",
+      "resistance": "fenotipo compatibile ESBL",
+      "isolates": 10,
+      "resistant": 4,
+      "percent": 40.0
+    },
+    {
+      "code": "CAMPC",
+      "pathogen": "Gram-negativi",
+      "resistance": "fenotipo compatibile AmpC",
+      "isolates": 157,
+      "resistant": 20,
+      "percent": 12.7
+    },
+    {
+      "code": "AMP_ENT",
+      "pathogen": "Enterobacterales",
+      "resistance": "ampicillina",
+      "isolates": 148,
+      "resistant": 35,
+      "percent": 23.6
+    },
+    {
+      "code": "TE_ENT",
+      "pathogen": "Enterobacterales",
+      "resistance": "tetraciclina",
+      "isolates": 148,
+      "resistant": 29,
+      "percent": 19.6
+    },
+    {
+      "code": "CIP_ENT",
+      "pathogen": "Enterobacterales",
+      "resistance": "ciprofloxacina",
+      "isolates": 148,
+      "resistant": 10,
+      "percent": 6.7
+    },
+    {
+      "code": "COL_ENT",
+      "pathogen": "Enterobacterales",
+      "resistance": "colistina",
+      "isolates": 148,
+      "resistant": 6,
+      "percent": 4.0
+    },
+    {
+      "code": "AMP_ECOLI",
+      "pathogen": "E. coli",
+      "resistance": "ampicillina",
+      "isolates": 66,
+      "resistant": 27,
+      "percent": 40.9
+    },
+    {
+      "code": "TET_ECOLI",
+      "pathogen": "E. coli",
+      "resistance": "tetraciclina",
+      "isolates": 66,
+      "resistant": 22,
+      "percent": 33.3
+    }
+  ],
+  "coverage": {
+    "limitations": "Solo uccelli deceduti al CRAS, non trattati con antimicrobici. Non rappresentativo della fauna libera. Fenotipi ESBL/AmpC senza conferma genotipica sistematica. Non ripubblicare tabelle isolate-level."
+  },
+  "interpretation_note": "Coorte da centro recupero di Vanzago, marzo-agosto 2024. Non e una prevalenza regionale della fauna selvatica e non va attribuita a singoli comuni.",
+  "source": {
+    "title": "Resisting the Final Line: Phenotypic Detection of Resistance to Last-Resort Antimicrobials in Gram-Negative Bacteria Isolated from Wild Birds in Northern Italy",
+    "authors": "Rapi MC, Filipe J, Filippone Pavesi L, Raimondi S, Addis MF, Franciosini MP, Grilli G",
+    "journal": "Animals",
+    "year": 2025,
+    "volume": "15",
+    "issue": "15",
+    "article": "2289",
+    "doi": "10.3390/ani15152289",
+    "pmid": "40805079",
+    "pmcid": "PMC12345454",
+    "license": "CC BY 4.0",
+    "url": "https://doi.org/10.3390/ani15152289",
+    "acquired_at": "2026-08-22",
+    "tables": [
+      "abstract",
+      "section 3.1-3.3"
+    ]
+  }
+}

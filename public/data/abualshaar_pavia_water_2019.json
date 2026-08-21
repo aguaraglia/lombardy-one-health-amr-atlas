@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "edition": "lom_amr_atlas",
+  "source_id": "abualshaar_pavia_water_2019",
+  "dataset_version": "atlas-curated-v0.1",
+  "privacy": "public_aggregate",
+  "geography_level": "STUDIO_LOCALE",
+  "geography": "Area urbana e periurbana di Pavia (Lombardia)",
+  "host": "ambiente acquatico",
+  "matrix": [
+    "acque superficiali",
+    "acque sotterranee",
+    "canali",
+    "sorgenti"
+  ],
+  "period": "2019-05-13/2019-05-14",
+  "scope": "campagna puntuale di 2 giorni; non prevalenza regionale",
+  "cohort": {
+    "water_samples": 18,
+    "sampling_sites": 12,
+    "gramneg_on_betalactam_mc": 87,
+    "enterobacterales": 30
+  },
+  "enterobacterales_species": [
+    {
+      "species": "Escherichia coli",
+      "n": 21,
+      "percent": 70.0
+    },
+    {
+      "species": "Klebsiella spp.",
+      "n": 5,
+      "percent": 16.6
+    },
+    {
+      "species": "Citrobacter freundii",
+      "n": 2,
+      "percent": 6.7
+    },
+    {
+      "species": "Kluyvera intermedia",
+      "n": 2,
+      "percent": 6.7
+    }
+  ],
+  "indicators": [
+    {
+      "code": "ESBL_ECOLI",
+      "pathogen": "E. coli",
+      "resistance": "fenotipo ESBL",
+      "isolates": 21,
+      "resistant": 21,
+      "percent": 100.0
+    },
+    {
+      "code": "FQ_ECOLI",
+      "pathogen": "E. coli",
+      "resistance": "ciprofloxacina/levofloxacina",
+      "isolates": 21,
+      "percent": 66.6
+    },
+    {
+      "code": "SXT_ECOLI",
+      "pathogen": "E. coli",
+      "resistance": "trimethoprim-sulfametossazolo",
+      "isolates": 21,
+      "percent": 38.0
+    },
+    {
+      "code": "GEN_ECOLI",
+      "pathogen": "E. coli",
+      "resistance": "gentamicina",
+      "isolates": 21,
+      "percent": 19.0
+    },
+    {
+      "code": "CTXM_ECOLI",
+      "pathogen": "E. coli",
+      "resistance": "blaCTX-M",
+      "isolates": 21,
+      "resistant": 20,
+      "percent": 95.2
+    },
+    {
+      "code": "OXA244_ECOLI",
+      "pathogen": "E. coli ST131",
+      "resistance": "blaOXA-244 (isolati)",
+      "isolates": 21,
+      "resistant": 4,
+      "percent": 19.0
+    }
+  ],
+  "highlights": [
+    {
+      "finding": "due E. coli ST131 co-produttori CTX-M-15 e OXA-244 da siti urbani",
+      "note": "prima segnalazione nello studio; non prevalenza"
+    },
+    {
+      "finding": "una K. pneumoniae ST258 KPC-2 da un corso d'acqua",
+      "note": "un isolato XDR; non prevalenza"
+    }
+  ],
+  "coverage": {
+    "limitations": "Due giorni di campionamento, 18 campioni nell'area di Pavia. Escluso il Ticino come bacino. Non prevalenza regionale. Non ripubblicare Table 1 isolate-level."
+  },
+  "interpretation_note": "Campagna puntuale maggio 2019 su acque urbane/periurbane di Pavia. Non e una prevalenza regionale e non va attribuita a singoli corpi idrici come stima corrente.",
+  "source": {
+    "title": "OXA-244-Producing ST131 Escherichia coli From Surface and Groundwaters of Pavia Urban Area (Po Plain, Northern Italy)",
+    "authors": "AbuAlshaar A, Piazza A, Mercato A, Marchesini F, Mattioni Marchetti V, Bitar I, Hrabak J, Spalla M, Pilla G, Sconfietti R, Migliavacca R",
+    "journal": "Frontiers in Microbiology",
+    "year": 2022,
+    "volume": "13",
+    "article": "920319",
+    "doi": "10.3389/fmicb.2022.920319",
+    "pmid": "35756019",
+    "license": "CC BY 4.0",
+    "url": "https://doi.org/10.3389/fmicb.2022.920319",
+    "acquired_at": "2026-08-22",
+    "tables": [
+      "abstract",
+      "Results Enterobacterales",
+      "Figure 6"
+    ]
+  }
+}

@@ -4,6 +4,18 @@
   "selection_note": "Selezione curata e aggiornata il 2026-08-21: studi regionali o locali con collegamento territoriale esplicito alla Lombardia. Non equivale a una revisione sistematica e gli studi locali non sono trasformati automaticamente in stime regionali.",
   "records": [
     {
+      "id": "pubmed_29180991",
+      "year": 2017,
+      "title": "Occurrence of Extended Spectrum beta-Lactamases, KPC-Type, and MCR-1.2-Producing Enterobacteriaceae from Wells, River Water, and Wastewater Treatment Plants in Oltrepo Pavese Area, Northern Italy.",
+      "authors": "Caltagirone M et al.",
+      "journal": "Frontiers in microbiology",
+      "scope": "wastewater_amr",
+      "geographic_link": "Pozzi, corsi d'acqua e depuratori dell'Oltrepo Pavese, 2014-2015",
+      "pmid": "29180991",
+      "doi": "10.3389/fmicb.2017.02232",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/29180991/"
+    },
+    {
       "id": "pubmed_39061505",
       "year": 2024,
       "title": "Detection and Phenotypic Antimicrobial Susceptibility of Salmonella enterica Serotypes in Dairy Cattle Farms in the Po Valley, Northern Italy.",

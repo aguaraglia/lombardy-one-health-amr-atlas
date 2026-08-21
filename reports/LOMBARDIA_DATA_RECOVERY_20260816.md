@@ -22,11 +22,15 @@ Sono stati acquisiti e registrati come riferimenti link-only i documenti regiona
 
 ## Fonti ancora da recuperare
 
-- evidenze veterinarie lombarde separabili da IZSLER, non sole linee guida;
-- consistenze zootecniche regionali BDN/VetInfo con licenza e data verificabili;
-- studi peer-reviewed lombardi su filiera alimentare, fauna e ambiente con dati misurati;
-- sorveglianza regionale delle acque reflue: la pagina 2026 annuncia l'estensione a geni di resistenza, ma i report correnti non sono ancora un dataset AMR pubblicabile;
-- DGR 4561/2025: registrata come riferimento di governance per priorita veterinarie, reflui e reportistica.
+Aggiornato il 22 agosto 2026. IZSLER veterinario, BDN e studi peer-reviewed food/fauna/ambiente CC BY sono stati caricati.
+
+Restano aperti:
+
+- ClassyFarm: cruscotti DDDAit regionali su VetInfo, accesso autenticato; serve un export ufficiale;
+- sorveglianza regionale delle acque reflue con geni AMR: annunciata, dataset ancora non pubblicabile;
+- AMR su carne al dettaglio con geografia lombarda separabile e licenza CC BY;
+- licenze da sbloccare prima di pubblicare numeri: Cortimiglia 2016 (Cambridge), Fusar Poli/Addis 2024 (Elsevier), Turolla 2018 (CC BY-NC-ND);
+- DGR 4561/2025: gia in SOURCES.tsv come riferimento di governance, non come evidenza AMR.
 
 ## QA e limiti tecnici
 

@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0",
+  "edition": "lom_amr_atlas",
+  "source_id": "izsler_mrsa_heavypig_lombardy_2016_2018",
+  "dataset_version": "atlas-curated-v0.1",
+  "privacy": "public_aggregate",
+  "geography_level": "STUDIO_REGIONALE",
+  "geography": "Lombardia",
+  "host": "suini all'ingrasso",
+  "matrix": [
+    "tamponi animali al macello",
+    "campioni ambientali di allevamento"
+  ],
+  "period": "2016-2018",
+  "scope": "indagine IZSLER su 88 unita di ingrasso lombarde; non prevalenza regionale corrente",
+  "cohort": {
+    "fattening_units_animal_survey": 88,
+    "animal_samples": 440,
+    "units_mrsa_positive_animal_survey": 42,
+    "units_mrsa_positive_percent": 47.72,
+    "animal_samples_mrsa_positive": 77,
+    "animal_samples_mrsa_positive_percent": 17.5,
+    "fattening_units_environmental_survey": 50,
+    "environmental_samples": 150,
+    "environmental_units_positive": 7,
+    "environmental_units_positive_percent": 14.0,
+    "environmental_samples_mrsa_positive": 10,
+    "environmental_samples_mrsa_positive_percent": 6.67,
+    "mrsa_isolates": 87,
+    "overall_sample_positivity_percent": 14.75
+  },
+  "indicators": [
+    {
+      "code": "TET",
+      "pathogen": "MRSA",
+      "resistance": "tetraciclina",
+      "isolates": 87,
+      "percent": 85.05
+    },
+    {
+      "code": "FUR",
+      "pathogen": "MRSA",
+      "resistance": "ceftiofur",
+      "isolates": 87,
+      "percent": 48.28
+    },
+    {
+      "code": "TIA",
+      "pathogen": "MRSA",
+      "resistance": "tiamulina",
+      "isolates": 87,
+      "resistant": 32,
+      "percent": 36.78
+    },
+    {
+      "code": "DXT",
+      "pathogen": "MRSA",
+      "resistance": "doxiciclina",
+      "isolates": 87,
+      "percent": 32.18
+    },
+    {
+      "code": "ENR",
+      "pathogen": "MRSA",
+      "resistance": "enrofloxacina",
+      "isolates": 87,
+      "percent": 27.59
+    },
+    {
+      "code": "CN",
+      "pathogen": "MRSA",
+      "resistance": "gentamicina",
+      "isolates": 87,
+      "percent": 25.29
+    },
+    {
+      "code": "SXT",
+      "pathogen": "MRSA",
+      "resistance": "sulfametossazolo-trimetoprim",
+      "isolates": 87,
+      "resistant": 9,
+      "percent": 10.34
+    }
+  ],
+  "penicillins_nonsusceptible_percent_min": 91.95,
+  "mdr_three_or_more_classes": {
+    "isolates": 67,
+    "percent": 77.01
+  },
+  "resistant_to_at_least_three_antibiotics": {
+    "isolates": 85,
+    "percent": 97.7
+  },
+  "dominant_genotypes": [
+    {
+      "genotype": "ST398/t899",
+      "isolates": 33,
+      "percent": 37.93
+    },
+    {
+      "genotype": "ST398/t011",
+      "isolates": 27,
+      "percent": 31.03
+    },
+    {
+      "genotype": "ST1/t127",
+      "isolates": 8,
+      "percent": 9.2
+    }
+  ],
+  "method_note": "Arricchimento e conferma mecA. AST fenotipica con diffusione in agar Kirby-Bauer (n=87). Non sono stati ripubblicati isolati, spa-type per ceppo o identificativi aziendali.",
+  "interpretation_note": "Indagine IZSLER 2016-2018 su 88 unita di ingrasso lombarde al macello. Non e una prevalenza regionale attuale e non consente attribuzione comunale. Campionamento 2016-2018.",
+  "source": {
+    "title": "Assessment of the Antibiotic Resistance Profile, Genetic Heterogeneity and Biofilm Production of Methicillin-Resistant Staphylococcus aureus (MRSA) Isolated from The Italian Swine Production Chain",
+    "authors": "Rodriguez-Lopez P, Filipello V, Di Ciccio PA, Pitozzi A, Ghidini S, Scali F, Ianieri A, Zanardi E, Losio MN, Simon AC, Alborali GL",
+    "journal": "Foods",
+    "year": 2020,
+    "doi": "10.3390/foods9091141",
+    "pmid": "32825203",
+    "pmcid": "PMC7555242",
+    "license": "CC BY 4.0",
+    "url": "https://doi.org/10.3390/foods9091141",
+    "acquired_at": "2026-08-21",
+    "tables": [
+      "abstract",
+      "section 3.1-3.2",
+      "Table 3"
+    ]
+  }
+}

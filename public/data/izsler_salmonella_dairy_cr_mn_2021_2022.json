@@ -1,0 +1,259 @@
+{
+  "schema_version": "1.0",
+  "edition": "lom_amr_atlas",
+  "source_id": "izsler_salmonella_dairy_cr_mn_2021_2022",
+  "dataset_version": "atlas-curated-v0.1",
+  "privacy": "public_aggregate",
+  "geography_level": "STUDIO_PROVINCIALE",
+  "geography": "Province di Cremona e Mantova (Lombardia)",
+  "host": "bovini da latte",
+  "matrix": [
+    "carcasse/organi di vitelli",
+    "tampone rettale",
+    "feci",
+    "latte di massa",
+    "calzari e tamponi ambientali"
+  ],
+  "period": "2021-2022",
+  "scope": "coorte diagnostica IZSLER su stalle da latte; non prevalenza regionale",
+  "cohort": {
+    "farms": 118,
+    "infection_cases": 120,
+    "cases_2021": 59,
+    "cases_2022": 61,
+    "samples_analyzed": 2710,
+    "sample_types": {
+      "rectal_swabs": 1937,
+      "calf_feces": 390,
+      "calf_carcasses_organs": 128,
+      "bulk_milk": 93,
+      "environmental_overshoes_swabs": 127
+    }
+  },
+  "first_isolation_source": [
+    {
+      "source": "carcasse/organi di vitelli",
+      "cases": 74,
+      "percent": 61.67
+    },
+    {
+      "source": "fegato di vacche da macellazione d'urgenza in azienda",
+      "cases": 26,
+      "percent": 21.67
+    },
+    {
+      "source": "feci/tampone rettale",
+      "cases": 16,
+      "percent": 13.33
+    },
+    {
+      "source": "feti",
+      "cases": 4,
+      "percent": 3.33
+    }
+  ],
+  "serovars_among_120_cases": [
+    {
+      "serovar": "Salmonella Dublin",
+      "cases": 46,
+      "percent": 38.33
+    },
+    {
+      "serovar": "Salmonella Typhimurium",
+      "cases": 28,
+      "percent": 23.33
+    },
+    {
+      "serovar": "Salmonella Typhimurium monophasic variant",
+      "cases": 17,
+      "percent": 14.17
+    }
+  ],
+  "serovar_copresence_cases": 13,
+  "ast": {
+    "method": "MIC Sensititre ITISVE1; 51 isolati non ripetuti",
+    "isolates_tested": 51,
+    "tested_by_serovar": [
+      {
+        "serovar": "Salmonella Dublin",
+        "n": 18
+      },
+      {
+        "serovar": "Salmonella Typhimurium",
+        "n": 14
+      },
+      {
+        "serovar": "Salmonella Typhimurium monophasic variant",
+        "n": 10
+      },
+      {
+        "serovar": "Salmonella Agona",
+        "n": 2
+      },
+      {
+        "serovar": "Salmonella Goldcoast",
+        "n": 2
+      },
+      {
+        "serovar": "Salmonella Agama",
+        "n": 1
+      },
+      {
+        "serovar": "Salmonella Bovismorbificans",
+        "n": 1
+      },
+      {
+        "serovar": "Salmonella Bredeney",
+        "n": 1
+      },
+      {
+        "serovar": "Salmonella Muenster",
+        "n": 1
+      },
+      {
+        "serovar": "Salmonella Enteritidis",
+        "n": 1
+      }
+    ],
+    "multidrug": [
+      {
+        "pattern": "sensibile/intermedio a tutti i farmaci testati",
+        "isolates": 2,
+        "percent": 3.92
+      },
+      {
+        "pattern": "resistente a 1 antibiotico",
+        "isolates": 13,
+        "percent": 25.49
+      },
+      {
+        "pattern": "resistente a 2 antibiotici",
+        "isolates": 6,
+        "percent": 11.76
+      },
+      {
+        "pattern": "resistente a 3 antibiotici",
+        "isolates": 3,
+        "percent": 5.88
+      },
+      {
+        "pattern": "resistente a 4 antibiotici",
+        "isolates": 3,
+        "percent": 5.88
+      },
+      {
+        "pattern": "resistente a 5 o piu antibiotici",
+        "isolates": 24,
+        "percent": 47.06
+      }
+    ]
+  },
+  "indicators": [
+    {
+      "code": "AMP",
+      "pathogen": "Salmonella enterica",
+      "resistance": "ampicillina",
+      "isolates": 51,
+      "resistant": 38,
+      "percent": 74.51
+    },
+    {
+      "code": "SFX",
+      "pathogen": "Salmonella enterica",
+      "resistance": "sulfisoxazolo",
+      "isolates": 51,
+      "resistant": 31,
+      "percent": 60.78
+    },
+    {
+      "code": "TET",
+      "pathogen": "Salmonella enterica",
+      "resistance": "tetraciclina",
+      "isolates": 51,
+      "resistant": 27,
+      "percent": 52.94
+    },
+    {
+      "code": "FLO",
+      "pathogen": "Salmonella enterica",
+      "resistance": "florfenicolo",
+      "isolates": 51,
+      "resistant": 19,
+      "percent": 37.25
+    },
+    {
+      "code": "COL",
+      "pathogen": "Salmonella enterica",
+      "resistance": "colistina",
+      "isolates": 51,
+      "resistant": 16,
+      "percent": 31.37
+    },
+    {
+      "code": "CTX",
+      "pathogen": "Salmonella enterica",
+      "resistance": "cefotaxime",
+      "isolates": 51,
+      "resistant": 2,
+      "percent": 3.92
+    }
+  ],
+  "indicators_by_serovar": [
+    {
+      "serovar": "Salmonella Typhimurium",
+      "n": 14,
+      "ampicillin_resistant": 14,
+      "ampicillin_percent": 100.0,
+      "tetracycline_resistant": 14,
+      "tetracycline_percent": 100.0,
+      "colistin_resistant": 0,
+      "colistin_percent": 0.0
+    },
+    {
+      "serovar": "Salmonella Typhimurium monophasic variant",
+      "n": 10,
+      "ampicillin_resistant": 10,
+      "ampicillin_percent": 100.0,
+      "tetracycline_resistant": 9,
+      "tetracycline_percent": 90.0,
+      "colistin_resistant": 0,
+      "colistin_percent": 0.0
+    },
+    {
+      "serovar": "Salmonella Dublin",
+      "n": 18,
+      "ampicillin_resistant": 6,
+      "ampicillin_percent": 33.33,
+      "tetracycline_resistant": 0,
+      "tetracycline_percent": 0.0,
+      "colistin_resistant": 16,
+      "colistin_percent": 88.89
+    }
+  ],
+  "coverage": {
+    "limitations": "Campioni conferiti per motivi diagnostici ai laboratori IZSLER di Cremona e Mantova. Non e una prevalenza regionale, non copre le altre province lombarde e non consente downscaling comunale."
+  },
+  "method_note": "Rilevazione colturale di Salmonella spp. e sieroagglutazione; AST con MIC su pannello Sensititre ITISVE1. Interpretazione secondo il centro di riferimento IZSLT / criteri riportati nell'articolo. Isolati non ripetuti.",
+  "interpretation_note": "Coorte diagnostica IZSLER su stalle da latte delle province di Cremona e Mantova, 2021-2022. Non e una prevalenza regionale e non va attribuita a singoli comuni o aziende. Nessun identificativo aziendale e stato pubblicato.",
+  "source": {
+    "title": "Detection and Phenotypic Antimicrobial Susceptibility of Salmonella enterica Serotypes in Dairy Cattle Farms in the Po Valley, Northern Italy",
+    "authors": "Parolini F, Ventura G, Rosignoli C, Rota Nodari S, D'incau M, Marocchi L, Santucci G, Boldini M, Gradassi M",
+    "journal": "Animals",
+    "year": 2024,
+    "volume": "14",
+    "issue": "14",
+    "article": "2043",
+    "doi": "10.3390/ani14142043",
+    "pmid": "39061505",
+    "pmcid": "PMC11273392",
+    "license": "CC BY 4.0",
+    "url": "https://doi.org/10.3390/ani14142043",
+    "europepmc_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11273392/fullTextXML",
+    "acquired_at": "2026-08-21",
+    "tables": [
+      "Table 1",
+      "Table 4",
+      "section 3.6"
+    ]
+  }
+}

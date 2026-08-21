@@ -1,0 +1,220 @@
+{
+  "schema_version": "1.0",
+  "edition": "lom_amr_atlas",
+  "source_id": "formenti_wildboar_esbl_brescia_2017_2020",
+  "dataset_version": "atlas-curated-v0.1",
+  "privacy": "public_aggregate",
+  "geography_level": "STUDIO_PROVINCIALE",
+  "geography": "Provincia di Brescia (quattro comprensori di caccia)",
+  "host": "cinghiale (Sus scrofa)",
+  "matrix": [
+    "feci"
+  ],
+  "period": "2017-2018/2019-2020",
+  "scope": "programma regionale di monitoraggio fauna; non prevalenza regionale della Lombardia",
+  "cohort": {
+    "animals": 1504,
+    "seasons": 3,
+    "hunting_areas": 4,
+    "female_percent": 53.32,
+    "male_percent": 46.68,
+    "young_percent": 22.94,
+    "subadult_percent": 24.47,
+    "adult_percent": 52.59
+  },
+  "indicators": [
+    {
+      "code": "ESBL_AMPC",
+      "pathogen": "E. coli ESBL/AmpC",
+      "resistance": "isolamento selettivo CTX",
+      "isolates": 1504,
+      "resistant": 240,
+      "percent": 15.96,
+      "ci95": [
+        14.14,
+        17.91
+      ]
+    },
+    {
+      "code": "BLACTXM",
+      "pathogen": "E. coli",
+      "resistance": "blaCTX-M",
+      "isolates": 1504,
+      "resistant": 185,
+      "percent": 12.3,
+      "ci95": [
+        10.68,
+        14.07
+      ]
+    },
+    {
+      "code": "BLATEM",
+      "pathogen": "E. coli",
+      "resistance": "blaTEM",
+      "isolates": 1504,
+      "resistant": 105,
+      "percent": 6.98,
+      "ci95": [
+        5.74,
+        8.39
+      ]
+    },
+    {
+      "code": "BLACMY",
+      "pathogen": "E. coli",
+      "resistance": "blaCMY",
+      "isolates": 1504,
+      "resistant": 13,
+      "percent": 0.86,
+      "ci95": [
+        0.46,
+        1.47
+      ]
+    },
+    {
+      "code": "BLASHV",
+      "pathogen": "E. coli",
+      "resistance": "blaSHV-12",
+      "isolates": 1504,
+      "resistant": 7,
+      "percent": 0.47,
+      "ci95": [
+        0.19,
+        0.96
+      ]
+    }
+  ],
+  "by_age": [
+    {
+      "class": "young",
+      "n": 345,
+      "positive": 71,
+      "percent": 20.58
+    },
+    {
+      "class": "sub-adult",
+      "n": 368,
+      "positive": 49,
+      "percent": 13.32
+    },
+    {
+      "class": "adult",
+      "n": 791,
+      "positive": 120,
+      "percent": 15.17
+    }
+  ],
+  "by_season": [
+    {
+      "season": "2017-2018",
+      "n": 525,
+      "positive": 108,
+      "percent": 20.57
+    },
+    {
+      "season": "2018-2019",
+      "n": 381,
+      "positive": 55,
+      "percent": 14.44
+    },
+    {
+      "season": "2019-2020",
+      "n": 598,
+      "positive": 77,
+      "percent": 12.88
+    }
+  ],
+  "by_hunting_area": [
+    {
+      "area": "HA1",
+      "n": 506,
+      "positive": 83,
+      "percent": 16.4
+    },
+    {
+      "area": "HA2",
+      "n": 63,
+      "positive": 11,
+      "percent": 17.46
+    },
+    {
+      "area": "HA3",
+      "n": 79,
+      "positive": 22,
+      "percent": 27.85
+    },
+    {
+      "area": "HA4",
+      "n": 856,
+      "positive": 124,
+      "percent": 14.49
+    }
+  ],
+  "phylogroups_among_240": [
+    {
+      "group": "B1",
+      "n": 63,
+      "percent": 26.25
+    },
+    {
+      "group": "A",
+      "n": 59,
+      "percent": 24.58
+    },
+    {
+      "group": "F",
+      "n": 31,
+      "percent": 12.92
+    },
+    {
+      "group": "C",
+      "n": 28,
+      "percent": 11.67
+    },
+    {
+      "group": "B2",
+      "n": 21,
+      "percent": 8.75
+    },
+    {
+      "group": "E",
+      "n": 18,
+      "percent": 7.5
+    },
+    {
+      "group": "D",
+      "n": 16,
+      "percent": 6.67
+    },
+    {
+      "group": "clade I",
+      "n": 4,
+      "percent": 1.67
+    }
+  ],
+  "coverage": {
+    "limitations": "Solo provincia di Brescia, quattro comprensori di caccia. Non prevalenza regionale. Nessun identificativo di animale o di sito di caccia oltre al codice HA. Non ripubblicare tabelle isolate-level."
+  },
+  "interpretation_note": "Monitoraggio IZSLER su cinghiali cacciati in provincia di Brescia, tre stagioni 2017-2020. Non e una prevalenza regionale e non va attribuita a singoli comuni.",
+  "source": {
+    "title": "ESBL/AmpC-Producing Escherichia coli in Wild Boar: Epidemiology and Risk Factors",
+    "authors": "Formenti N, Calo S, Parisio G, Guarneri F, Birbes L, Pitozzi A, Scali F, Tonni M, Guadagno F, Giovannini S, Salogni C, Ianieri A, Bellini S, Pasquali P, Alborali GL",
+    "journal": "Animals",
+    "year": 2021,
+    "volume": "11",
+    "issue": "7",
+    "article": "1855",
+    "doi": "10.3390/ani11071855",
+    "pmid": "34206498",
+    "pmcid": "PMC8300396",
+    "license": "CC BY 4.0",
+    "url": "https://doi.org/10.3390/ani11071855",
+    "acquired_at": "2026-08-22",
+    "tables": [
+      "Table 2",
+      "Table 3",
+      "Table 4",
+      "abstract"
+    ]
+  }
+}

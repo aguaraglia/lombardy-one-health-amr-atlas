@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "edition": "lom_amr_atlas",
+  "source_id": "caltagirone_oltrepo_water_2014_2015",
+  "dataset_version": "atlas-curated-v0.1",
+  "privacy": "public_aggregate",
+  "geography_level": "STUDIO_LOCALE",
+  "geography": "Oltrepo Pavese (provincia di Pavia, Lombardia)",
+  "host": "ambiente acquatico",
+  "matrix": [
+    "pozzi",
+    "corsi d'acqua",
+    "depuratori"
+  ],
+  "period": "2014-12/2015-11",
+  "scope": "campagna ambientale annuale; non prevalenza regionale",
+  "cohort": {
+    "water_samples": 246,
+    "wells": 11,
+    "streams": 5,
+    "wwtps": 4,
+    "samples_from_streams": 118,
+    "samples_from_wells": 108,
+    "samples_from_wwtps": 20
+  },
+  "enterobacterales_on_ctx": {
+    "total": 132,
+    "from_streams": 82,
+    "from_wwtps": 41,
+    "from_wells": 9,
+    "esbl_phenotype": 30,
+    "esbl_percent": 22.7
+  },
+  "ctx_resistance_gramneg_average_percent": [
+    {
+      "compartment": "WWTP",
+      "percent": 69.0
+    },
+    {
+      "compartment": "streams",
+      "percent": 32.0
+    },
+    {
+      "compartment": "wells",
+      "percent": 10.3
+    }
+  ],
+  "highlights": [
+    {
+      "finding": "KPC-3 Klebsiella pneumoniae ST258 da un pozzo (Varzi)",
+      "note": "un isolato; non prevalenza"
+    },
+    {
+      "finding": "KPC-2 Klebsiella pneumoniae ST307 da un depuratore (Varzi)",
+      "note": "un isolato; non prevalenza"
+    },
+    {
+      "finding": "prima segnalazione ambientale italiana di mcr-1.2 in E. coli ST10 da un corso d'acqua (Coppa)",
+      "note": "un isolato su plasmide IncX4 coniugativo; non prevalenza"
+    }
+  ],
+  "indicators": [
+    {
+      "code": "CTX_R_WWTP",
+      "pathogen": "Gram-negativi",
+      "resistance": "cefotaxime (media siti WWTP)",
+      "percent": 69.0
+    },
+    {
+      "code": "CTX_R_STREAM",
+      "pathogen": "Gram-negativi",
+      "resistance": "cefotaxime (media corsi d'acqua)",
+      "percent": 32.0
+    },
+    {
+      "code": "CTX_R_WELL",
+      "pathogen": "Gram-negativi",
+      "resistance": "cefotaxime (media pozzi)",
+      "percent": 10.3
+    },
+    {
+      "code": "ESBL_ENTERO",
+      "pathogen": "Enterobacterales su MCA+CTX",
+      "resistance": "fenotipo ESBL (DD)",
+      "isolates": 132,
+      "resistant": 30,
+      "percent": 22.7
+    }
+  ],
+  "coverage": {
+    "limitations": "Area Oltrepo Pavese, non tutta la Lombardia. Percentuali CTX-R sono medie di conteggi su piastre, con range 0-100% per visita. Non downscaling comunale. Non ripubblicare tabelle isolate-level."
+  },
+  "interpretation_note": "Studio ambientale 2014-2015 su pozzi, corsi d'acqua e depuratori dell'Oltrepo Pavese. Non e una prevalenza regionale e non va attribuito a singoli comuni o impianti. Nessun identificativo di sito operativo e stato pubblicato.",
+  "source": {
+    "title": "Occurrence of Extended Spectrum beta-Lactamases, KPC-Type, and MCR-1.2-Producing Enterobacteriaceae from Wells, River Water, and Wastewater Treatment Plants in Oltrepo Pavese Area, Northern Italy",
+    "authors": "Caltagirone M, Nucleo E, Spalla M, Zara F, Novazzi F, Marchetti VM, Piazza A, Bitar I, De Cicco M, Paolucci S, Pilla G, Migliavacca R, Pagani L",
+    "journal": "Frontiers in Microbiology",
+    "year": 2017,
+    "volume": "8",
+    "article": "2232",
+    "doi": "10.3389/fmicb.2017.02232",
+    "pmid": "29180991",
+    "pmcid": "PMC5681903",
+    "license": "CC BY 4.0",
+    "url": "https://doi.org/10.3389/fmicb.2017.02232",
+    "acquired_at": "2026-08-22",
+    "tables": [
+      "Table 2",
+      "abstract",
+      "results enterobacterales counts"
+    ]
+  }
+}

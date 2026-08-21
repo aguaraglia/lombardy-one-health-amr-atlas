@@ -6,8 +6,8 @@
   "shortName": "Lombardy One Health",
   "brandIcon": "public/brand/lombardia-region-mark.svg",
   "language": "it",
-  "dataStatusLabel": "Base dati ufficiale verificata ed estesa il 16 agosto 2026.",
-  "publicScopeSummary": "Confini ISTAT 2026; AR-ISS 2024; OsMed 2024; MICROBIO 2023; AWaRe 2025; PPS-3; reticolo idrografico; 480 depuratori urbani georiferiti; aggregati SIRe 2025 per provincia e letteratura scientifica lombarda; coorte IZSLER Salmonella da latte CR/MN 2021-2022 (studio, non prevalenza); consistenze BDN giugno 2026 (bovini, suini, ovicaprini; contesto, non AMR).",
+  "dataStatusLabel": "Base dati ufficiale verificata ed estesa il 22 agosto 2026.",
+  "publicScopeSummary": "Confini ISTAT 2026; AR-ISS 2024; OsMed 2024; MICROBIO 2023; AWaRe 2025; PPS-3; reticolo idrografico; 480 depuratori urbani georiferiti; aggregati SIRe 2025 per provincia e letteratura scientifica lombarda; coorte IZSLER Salmonella da latte CR/MN 2021-2022 (studio, non prevalenza); consistenze BDN giugno 2026 (bovini, suini, ovicaprini; contesto, non AMR); AMR ambientale Oltrepo Pavese 2014-2015 e acque di Pavia 2019; fauna: uccelli CRAS Vanzago 2024 e ricci 2023-2024 (studi, non prevalenza).",
   "map": {
     "center": [
       45.62,

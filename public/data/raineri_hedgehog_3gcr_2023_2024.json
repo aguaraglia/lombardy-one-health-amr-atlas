@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "edition": "lom_amr_atlas",
+  "source_id": "raineri_hedgehog_3gcr_2023_2024",
+  "dataset_version": "atlas-curated-v0.1",
+  "privacy": "public_aggregate",
+  "geography_level": "STUDIO_LOCALE",
+  "geography": "Province di Milano, Varese, Como e Monza Brianza (Lombardia)",
+  "host": "riccio europeo (Erinaceus europaeus)",
+  "matrix": [
+    "contenuto intestinale"
+  ],
+  "period": "2023-10/2024-01",
+  "scope": "coorte da centro recupero; non prevalenza della fauna libera",
+  "cohort": {
+    "animals": 49,
+    "3gcr_ecoli_positive": 25,
+    "3gcr_percent": 51.0,
+    "no_growth": 5
+  },
+  "indicators": [
+    {
+      "code": "POS_3GCR",
+      "pathogen": "E. coli 3GC-R",
+      "resistance": "isolamento selettivo ESBL",
+      "isolates": 49,
+      "resistant": 25,
+      "percent": 51.0
+    },
+    {
+      "code": "MDR",
+      "pathogen": "E. coli 3GC-R",
+      "resistance": "MDR",
+      "isolates": 25,
+      "resistant": 24,
+      "percent": 96.0
+    },
+    {
+      "code": "CTX",
+      "pathogen": "E. coli 3GC-R",
+      "resistance": "cefotaxime",
+      "isolates": 25,
+      "resistant": 25,
+      "percent": 100.0
+    },
+    {
+      "code": "AMC",
+      "pathogen": "E. coli 3GC-R",
+      "resistance": "amoxicillina/clavulanato",
+      "isolates": 25,
+      "resistant": 13,
+      "percent": 52.0
+    },
+    {
+      "code": "ENR",
+      "pathogen": "E. coli 3GC-R",
+      "resistance": "enrofloxacina/flumequina",
+      "isolates": 25,
+      "resistant": 23,
+      "percent": 92.0
+    },
+    {
+      "code": "TET",
+      "pathogen": "E. coli 3GC-R",
+      "resistance": "tetraciclina",
+      "isolates": 25,
+      "resistant": 16,
+      "percent": 64.0
+    },
+    {
+      "code": "BLATEM",
+      "pathogen": "E. coli 3GC-R",
+      "resistance": "blaTEM (famiglia)",
+      "isolates": 25,
+      "resistant": 13,
+      "percent": 52.0
+    },
+    {
+      "code": "BLASHV",
+      "pathogen": "E. coli 3GC-R",
+      "resistance": "blaSHV (famiglia)",
+      "isolates": 25,
+      "resistant": 9,
+      "percent": 36.0
+    },
+    {
+      "code": "BLACTXM",
+      "pathogen": "E. coli 3GC-R",
+      "resistance": "blaCTX-M (famiglia)",
+      "isolates": 25,
+      "resistant": 7,
+      "percent": 28.0
+    }
+  ],
+  "coverage": {
+    "limitations": "Animali deceduti al centro recupero, senza terapia antimicrobica. Province MI/VA/CO/MB, non tutta la Lombardia. Non rappresentativo della popolazione libera. PCR a livello di famiglia genica, senza sequenziamento delle varianti. Non ripubblicare Table 1 isolate-level."
+  },
+  "interpretation_note": "Coorte da centro recupero, ottobre 2023-gennaio 2024. Non e una prevalenza regionale dei ricci liberi e non va attribuita a singoli comuni.",
+  "source": {
+    "title": "Occurrence of third-generation cephalosporin-resistant Escherichia coli in European hedgehogs (Erinaceus europaeus) from a wildlife rescue centre in Lombardy, Northern Italy",
+    "authors": "Raineri S, Gazzola A, Dilio G, Ventura S, Maisano AM, Guarneri F, Formenti N, Alborali GL, Magistrali CF, Filipe J, Rapi MC, Grilli G",
+    "journal": "Veterinary Research Communications",
+    "year": 2026,
+    "volume": "50",
+    "article": "410",
+    "doi": "10.1007/s11259-026-11356-4",
+    "pmid": "42322447",
+    "license": "CC BY 4.0",
+    "url": "https://doi.org/10.1007/s11259-026-11356-4",
+    "acquired_at": "2026-08-22",
+    "tables": [
+      "abstract",
+      "Results"
+    ]
+  }
+}

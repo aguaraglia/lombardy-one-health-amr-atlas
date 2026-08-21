@@ -16,7 +16,12 @@ La base pubblica verificata comprende:
 - coorte diagnostica IZSLER su Salmonella enterica in stalle da latte delle province di Cremona e Mantova (2021-2022; 118 aziende, 51 isolati con MIC); evidenza di studio, non prevalenza regionale e senza identificativi aziendali;
 - coorte IZSLER su MRSA in 88 unita di ingrasso suino lombarde (2016-2018; 87 isolati aggregati, CC BY); non prevalenza regionale corrente e senza identificativi aziendali;
 
-- consistenze BDN giugno 2026 (aggregati regionali, non AMR): 1.492.937 bovini, 3.949.063 suini da ingrasso/riproduzione, 80.353 ovini e 62.001 caprini; nessun identificativo aziendale;
+- consistenze BDN giugno 2026 (aggregati regionali, non AMR): 1.492.937 bovini, 3.949.063 suini da ingrasso/riproduzione, 80.353 ovini e 62.001 caprini; nessun identificativo aziendale;
+
+- studio ambientale CC BY su pozzi, corsi d'acqua e depuratori dell'Oltrepo Pavese (Caltagirone 2017; 246 campioni 2014-2015); aggregati, nessun ID impianto;
+- campagna puntuale CC BY su acque urbane di Pavia (AbuAlshaar 2022; 18 campioni, maggio 2019), inclusa segnalazione di E. coli ST131 OXA-244;
+- coorte CC BY di uccelli selvatici al CRAS Vanzago (Rapi 2025; 112 uccelli, 157 isolati Gram-negativi, 2024); non prevalenza della fauna libera;
+- coorte CC BY di ricci europei da un CRAS lombardo (Raineri 2026; 25/49 E. coli 3GC-R, 2023-2024); non prevalenza della fauna libera;
 - letteratura scientifica con collegamento territoriale esplicito alla Lombardia, mantenuta distinta dai dataset.
 
 Gli export SIRe 2025 sono conservati come snapshot raw esclusi da Git e non vengono redistribuiti a livello di singola riga. Il layer puntuale usa invece un servizio cartografico regionale pubblico separato, con soli campi essenziali e con l'anno del rilievo esplicitato. Il reticolo minore e di bonifica non è incluso nella build per evitare un layer sproporzionato e non necessario.

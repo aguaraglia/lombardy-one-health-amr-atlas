@@ -19,3 +19,7 @@ Nessun identificativo di animale, azienda o impianto. Non ripubblicate tabelle i
 
 - Licenze verificate sulle pagine editore (Frontiers CC BY; MDPI CC BY; Springer OA CC BY 4.0 per Raineri).
 - Cortimiglia BTM e ClassyFarm invariati (candidate).
+
+## Aggiornamento sera 22 agosto
+
+Aggiunti Formenti 2021 (cinghiali Brescia, 1504, ESBL/AmpC 15.96%) e Bianchini 2014 (C. jejuni 78 isolati, chinoloni 23.3%). Fusar Poli / Addis 2024 BTM Lodi resta candidate (Elsevier, CC BY non confermata).

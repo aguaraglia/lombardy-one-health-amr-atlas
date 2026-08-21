@@ -22,6 +22,8 @@ La base pubblica verificata comprende:
 - campagna puntuale CC BY su acque urbane di Pavia (AbuAlshaar 2022; 18 campioni, maggio 2019), inclusa segnalazione di E. coli ST131 OXA-244;
 - coorte CC BY di uccelli selvatici al CRAS Vanzago (Rapi 2025; 112 uccelli, 157 isolati Gram-negativi, 2024); non prevalenza della fauna libera;
 - coorte CC BY di ricci europei da un CRAS lombardo (Raineri 2026; 25/49 E. coli 3GC-R, 2023-2024); non prevalenza della fauna libera;
+- coorte IZSLER CC BY su E. coli ESBL/AmpC in 1504 cinghiali della provincia di Brescia (Formenti 2021; 15.96%); non prevalenza regionale;
+- isolati CC BY di Campylobacter jejuni da latte di massa, feci e piccioni in stalle da latte IZSLER Lodi (Bianchini 2014; chinoloni 23.3%, macrolidi 0%);
 - letteratura scientifica con collegamento territoriale esplicito alla Lombardia, mantenuta distinta dai dataset.
 
 Gli export SIRe 2025 sono conservati come snapshot raw esclusi da Git e non vengono redistribuiti a livello di singola riga. Il layer puntuale usa invece un servizio cartografico regionale pubblico separato, con soli campi essenziali e con l'anno del rilievo esplicitato. Il reticolo minore e di bonifica non è incluso nella build per evitare un layer sproporzionato e non necessario.

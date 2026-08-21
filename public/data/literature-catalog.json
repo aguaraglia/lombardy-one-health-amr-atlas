@@ -4,6 +4,30 @@
   "selection_note": "Selezione curata e aggiornata il 2026-08-21: studi regionali o locali con collegamento territoriale esplicito alla Lombardia. Non equivale a una revisione sistematica e gli studi locali non sono trasformati automaticamente in stime regionali.",
   "records": [
     {
+      "id": "pubmed_25026083",
+      "year": 2014,
+      "title": "Genotypes and Antibiotic Resistances of Campylobacter jejuni Isolates from Cattle and Pigeons in Dairy Farms.",
+      "authors": "Bianchini V et al.",
+      "journal": "International journal of environmental research and public health",
+      "scope": "foodborne_amr",
+      "geographic_link": "30 stalle da latte, provincia di Lodi, 2010-2012",
+      "pmid": "25026083",
+      "doi": "10.3390/ijerph110707154",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/25026083/"
+    },
+    {
+      "id": "pubmed_34206498",
+      "year": 2021,
+      "title": "ESBL/AmpC-Producing Escherichia coli in Wild Boar: Epidemiology and Risk Factors.",
+      "authors": "Formenti N et al.",
+      "journal": "Animals : an open access journal from MDPI",
+      "scope": "wildlife_amr",
+      "geographic_link": "1504 cinghiali cacciati in provincia di Brescia, 2017-2020",
+      "pmid": "34206498",
+      "doi": "10.3390/ani11071855",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/34206498/"
+    },
+    {
       "id": "pubmed_29180991",
       "year": 2017,
       "title": "Occurrence of Extended Spectrum beta-Lactamases, KPC-Type, and MCR-1.2-Producing Enterobacteriaceae from Wells, River Water, and Wastewater Treatment Plants in Oltrepo Pavese Area, Northern Italy.",

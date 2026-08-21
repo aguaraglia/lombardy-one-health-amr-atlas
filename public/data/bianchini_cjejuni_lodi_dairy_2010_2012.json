@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0",
+  "edition": "lom_amr_atlas",
+  "source_id": "bianchini_cjejuni_lodi_dairy_2010_2012",
+  "dataset_version": "atlas-curated-v0.1",
+  "privacy": "public_aggregate",
+  "geography_level": "STUDIO_LOCALE",
+  "geography": "Provincia di Lodi (30 allevamenti da latte)",
+  "host": "bovini da latte e piccioni in stalla",
+  "matrix": [
+    "latte di massa",
+    "feci bovine",
+    "piccioni",
+    "acqua"
+  ],
+  "period": "2010-2012",
+  "scope": "isolati C. jejuni da interfaccia One Health in stalle da latte della provincia di Lodi; non prevalenza regionale",
+  "cohort": {
+    "isolates_collected": 78,
+    "isolates_sequenced": 73,
+    "herds": 30,
+    "flab_types": 22,
+    "note": "flaB/gyrA/23S sequenziati su 73/78 isolati (5 sequenze miste escluse). I piccioni hanno un clone distinto e non risultano fonte di contaminazione del latte. Non ripubblicare Figure 1 (isolate-level)."
+  },
+  "indicators": [
+    {
+      "code": "QR",
+      "pathogen": "Campylobacter jejuni",
+      "resistance": "chinoloni (gyrA C257T)",
+      "isolates": 73,
+      "resistant": 17,
+      "percent": 23.3,
+      "ci95": [
+        13.6,
+        33.0
+      ]
+    },
+    {
+      "code": "MAC",
+      "pathogen": "Campylobacter jejuni",
+      "resistance": "macrolidi (23S rRNA)",
+      "isolates": 73,
+      "resistant": 0,
+      "percent": 0.0
+    }
+  ],
+  "by_matrix": [
+    {
+      "matrix": "bulk tank milk",
+      "isolates": 40,
+      "quinolone_resistant": 13,
+      "percent": 32.5
+    },
+    {
+      "matrix": "single quarter milk",
+      "isolates": 2,
+      "quinolone_resistant": 2,
+      "percent": 100.0
+    },
+    {
+      "matrix": "bovine feces",
+      "isolates": 17,
+      "quinolone_resistant": 2,
+      "percent": 11.8
+    },
+    {
+      "matrix": "pigeon intestine",
+      "isolates": 13,
+      "quinolone_resistant": 0,
+      "percent": 0.0
+    },
+    {
+      "matrix": "water point",
+      "isolates": 1,
+      "quinolone_resistant": 0,
+      "percent": 0.0
+    }
+  ],
+  "coverage": {
+    "limitations": "Percentuali su 73 isolati sequenziati, non su aziende. Geografia: provincia di Lodi, 30 stalle. Non downscaling comunale. Non ripubblicare Figure 1 (farm/year/source isolate-level)."
+  },
+  "interpretation_note": "Isolati C. jejuni da latte di massa, feci bovine e piccioni in stalle da latte. Resistenza ai chinoloni 23.3%, macrolidi 0%. Non e una prevalenza regionale.",
+  "source": {
+    "title": "Genotypes and Antibiotic Resistances of Campylobacter jejuni Isolates from Cattle and Pigeons in Dairy Farms",
+    "authors": "Bianchini V, Luini M, Borella L, Parisi A, Jonas R, Kittl S, Kuhnert P",
+    "journal": "International Journal of Environmental Research and Public Health",
+    "year": 2014,
+    "volume": "11",
+    "issue": "7",
+    "pages": "7154-7162",
+    "doi": "10.3390/ijerph110707154",
+    "pmid": "25026083",
+    "pmcid": "PMC4113866",
+    "license": "CC BY 3.0",
+    "url": "https://doi.org/10.3390/ijerph110707154",
+    "acquired_at": "2026-08-22",
+    "tables": [
+      "abstract"
+    ]
+  }
+}

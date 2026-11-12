@@ -13,7 +13,7 @@
   const esc = value => String(value == null ? '' : value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
   const labels = {
     human_amr_regional: 'Resistenza umana', human_amr_surveillance: 'Sorveglianza umana', human_amr_surveillance_pediatric: 'Sorveglianza pediatrica',
-    human_antimicrobial_use: 'Consumo di antimicrobici', healthcare_amr_point_prevalence: 'Prevalenza puntuale', wastewater_context: 'Contesto ambientale',
+    human_antimicrobial_use: 'Consumo di antimicrobici', antimicrobial_use: 'Uso e stewardship degli antimicrobici', healthcare_amr_point_prevalence: 'Prevalenza puntuale', wastewater_context: 'Contesto ambientale',
     veterinary_stewardship_guidance: 'Stewardship veterinaria', regional_surveillance: 'Sorveglianza regionale', healthcare_amr: 'AMR clinica',
     wastewater_amr: 'AMR ambientale', infection_prevention: 'Infezioni correlate all’assistenza', healthcare_one_health_amr: 'One Health clinica',
     foodborne_amr: 'AMR alimentare', veterinary_amr: 'AMR veterinaria', wildlife_amr: 'AMR nella fauna selvatica', companion_animal_amr: 'AMR negli animali d’affezione',

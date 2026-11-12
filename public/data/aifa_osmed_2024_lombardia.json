@@ -16,7 +16,7 @@
     "ddd_change_2024_2023_percent": 1.5,
     "ddd_difference_from_national_average_percent": -13.7
   },
-  "limitations": "Indicatore di consumo e spesa, non misura di resistenza; non confrontare automaticamente con prevalenze AMR.",
+  "limitations": "Indicatore di consumo e spesa del rapporto regionale Anno 2024, Tabella 13, non misura di resistenza. Il rapporto nazionale OsMed 2025 è il riferimento corrente sull'uso dei farmaci; da quel PDF non è stata letta una cifra regionale di antibiotici sostituibile, quindi questi valori restano etichettati 2024.",
   "source": {
     "title": "L uso dei farmaci in Italia - Regione Lombardia. Rapporto regionale sul consumo dei farmaci. Anno 2024",
     "table": "Tabella 13",

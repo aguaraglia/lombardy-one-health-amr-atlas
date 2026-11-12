@@ -29,7 +29,8 @@
         "province": "Provincia",
         "survey_year": "Anno del rilievo",
         "context_note": "Nota"
-      }
+      },
+      "overviewCount": "context"
     },
     {
       "id": "lombardia_hydrography_rip_aipo",
@@ -58,7 +59,8 @@
         "network_type": "Reticolo",
         "kind": "Tipologia",
         "description": "Descrizione"
-      }
+      },
+      "overviewCount": "context"
     },
     {
       "id": "lombardia_sire_wastewater_province_2025",
@@ -112,7 +114,8 @@
         "plants_major": "Potenzialità almeno 2.000 AE",
         "plants_minor": "Potenzialità sotto 2.000 AE",
         "aggregation_note": "Nota metodologica"
-      }
+      },
+      "overviewCount": "context"
     },
     {
       "id": "lombardia_municipalities_istat_2026",
@@ -134,7 +137,8 @@
         "name",
         "istat_code",
         "province_code"
-      ]
+      ],
+      "overviewCount": "context"
     },
     {
       "id": "lombardia_provinces_istat_2026",
@@ -156,7 +160,8 @@
         "name",
         "abbreviation",
         "unit_type"
-      ]
+      ],
+      "overviewCount": "context"
     },
     {
       "id": "lombardia_region_istat_2026",
@@ -177,7 +182,8 @@
       "popupFields": [
         "name",
         "istat_code"
-      ]
+      ],
+      "overviewCount": "context"
     },
     {
       "publication_status": "public_approved",
@@ -218,7 +224,8 @@
       "fillColor": "#9e2744",
       "radius": 6,
       "weight": 1.2,
-      "fillOpacity": 0.12
+      "fillOpacity": 0.12,
+      "overviewCount": "evidence"
     },
     {
       "publication_status": "public_approved",
@@ -259,7 +266,8 @@
       "fillColor": "#c16f24",
       "radius": 6,
       "weight": 1.4,
-      "fillOpacity": 0.26
+      "fillOpacity": 0.26,
+      "overviewCount": "evidence"
     },
     {
       "publication_status": "public_approved",
@@ -299,7 +307,8 @@
       "color": "#6f8428",
       "fillColor": "#6f8428",
       "weight": 2,
-      "fillOpacity": 0.12
+      "fillOpacity": 0.12,
+      "overviewCount": "evidence"
     },
     {
       "publication_status": "public_approved",
@@ -340,7 +349,8 @@
       "fillColor": "#176e8b",
       "radius": 6,
       "weight": 1.2,
-      "fillOpacity": 0.12
+      "fillOpacity": 0.12,
+      "overviewCount": "evidence"
     },
     {
       "publication_status": "public_approved",
@@ -381,7 +391,8 @@
       "fillColor": "#2f6b4f",
       "radius": 7,
       "weight": 1.4,
-      "fillOpacity": 0.2
+      "fillOpacity": 0.2,
+      "overviewCount": "evidence"
     },
     {
       "publication_status": "public_approved",
@@ -421,7 +432,8 @@
       "color": "#163c52",
       "fillColor": "#163c52",
       "weight": 2.8,
-      "fillOpacity": 0
+      "fillOpacity": 0,
+      "overviewCount": "evidence"
     }
   ]
 }

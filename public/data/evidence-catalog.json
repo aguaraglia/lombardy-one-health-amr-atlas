@@ -24,7 +24,19 @@
       "source_url": "https://www.aifa.gov.it/documents/20142/3610201/Lombardia_Osmed_2024.pdf",
       "data_file": "public/data/aifa_osmed_2024_lombardia.json",
       "publication_status": "public_approved",
-      "note": "Antibiotici: 14,7 DDD/1.000 abitanti/die nella tabella di spesa complessiva; consumo, non resistenza."
+      "note": "Antibiotici, rapporto regionale Anno 2024, Tabella 13: 14,7 DDD/1.000 abitanti/die nella tabella di spesa complessiva. Consumo, non resistenza. Cifre mantenute: dal rapporto nazionale OsMed 2025 non è stata letta una cifra regionale sostituibile."
+    },
+    {
+      "id": "aifa_osmed_2025_nazionale",
+      "title": "AIFA OsMed 2025 - Rapporto nazionale sull'uso dei farmaci",
+      "publisher": "Agenzia Italiana del Farmaco",
+      "evidence_type": "human_antimicrobial_use",
+      "geography": "Italia",
+      "period": "2025",
+      "source_url": "https://www.aifa.gov.it/documents/20142/3941839/AIFA_Rapporto_OsMed_2025.pdf",
+      "publication_status": "public_approved",
+      "summary": "Riferimento corrente sull'uso dei farmaci (rapporto nazionale Anno 2025, prima edizione luglio 2026). I consumi di antibiotici della Lombardia pubblicati nell'Atlante restano quelli del rapporto regionale 2024, Tabella 13.",
+      "note": "Osservatorio Nazionale sull'impiego dei Medicinali. L'uso dei farmaci in Italia. Rapporto Nazionale Anno 2025. Roma: AIFA, 2026. ISBN 979-12-80335-97-5. Prima edizione luglio 2026. Riferimento corrente. Dal PDF non è stata letta una tabella regionale lombarda di consumo di antibiotici equivalente alla Tabella 13 del rapporto regionale 2024; le cifre 14,7 DDD/1.000 abitanti/die restano etichettate 2024."
     },
     {
       "id": "regione_lombardia_microbio_2023",

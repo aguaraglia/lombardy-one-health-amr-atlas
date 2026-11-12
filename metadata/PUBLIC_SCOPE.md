@@ -4,7 +4,7 @@ La base pubblica verificata comprende:
 
 - confini ISTAT generalizzati al 1 gennaio 2026: 1.502 comuni, 12 province/città metropolitana e regione;
 - sei indicatori AR-ISS 2024 aggregati per la Lombardia, con numerosità, percentuale, IC 95% e copertura regionale del 53,7%;
-- consumo e spesa complessiva di antibiotici OsMed 2024;
+- consumo e spesa complessiva di antibiotici del rapporto regionale OsMed Anno 2024, Tabella 13 (14,7 DDD/1.000 abitanti/die); il rapporto nazionale OsMed 2025 è il riferimento corrente sull'uso dei farmaci e non sostituisce queste cifre, perché dal PDF non è stata letta una tabella regionale equivalente;
 - sintesi MICROBIO 2023 per adulti, limitata ai 31 presidi pubblici inclusi dal report e accompagnata dai limiti metodologici;
 - sintesi MICROBIO pediatrica 2023: 1.311 eventi BSI, 36 isolamenti da liquor e nove pattern selezionati da antibiogrammi cumulativi regionali;
 - quote AWaRe 2025 di consumo territoriale per 25 ASST e tre fasce di popolazione;
@@ -24,7 +24,7 @@ La base pubblica verificata comprende:
 - coorte CC BY di ricci europei da un CRAS lombardo (Raineri 2026; 25/49 E. coli 3GC-R, 2023-2024); non prevalenza della fauna libera;
 - coorte IZSLER CC BY su E. coli ESBL/AmpC in 1504 cinghiali della provincia di Brescia (Formenti 2021; 15.96%); non prevalenza regionale;
 - isolati CC BY di Campylobacter jejuni da latte di massa, feci e piccioni in stalle da latte IZSLER Lodi (Bianchini 2014; chinoloni 23.3%, macrolidi 0%);
-- letteratura scientifica con collegamento territoriale esplicito alla Lombardia, mantenuta distinta dai dataset.
+- letteratura scientifica con collegamento territoriale esplicito alla Lombardia, aggiornata l'11 novembre 2026 e mantenuta distinta dai dataset. Gli studi non sono georiferiti oltre la scala dichiarata dagli autori.
 
 Gli export SIRe 2025 sono conservati come snapshot raw esclusi da Git e non vengono redistribuiti a livello di singola riga. Il layer puntuale usa invece un servizio cartografico regionale pubblico separato, con soli campi essenziali e con l'anno del rilievo esplicitato. Il reticolo minore e di bonifica non è incluso nella build per evitare un layer sproporzionato e non necessario.
 

@@ -12,6 +12,19 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 
 CURATED = {
+    "42702569": ("human_antimicrobial_use", "Consumi ospedalieri di antibiotici in Lombardia, 2017-2024, in DDD per 100 giornate di degenza, distinti per reparti medici, chirurgici e di terapia intensiva. Uso, non resistenza."),
+    "42650660": ("companion_animal_amr", "Klebsiella pneumoniae complex ESBL in 4/200 gatti ricoverati all'Ospedale veterinario didattico di Milano (Università degli Studi di Milano), 2020-2026; blaCTX-M-15, blaSHV e blaTEM."),
+    "42644089": ("wildlife_amr", "205 uccelli selvatici ricoverati al Centro Recupero Fauna Selvatica WWF di Vanzago, marzo-agosto 2024 e luglio-dicembre 2025; Gram-positivi, soprattutto Enterococcus spp. (MDR nel 17% degli isolati Gram-positivi). Coorte da centro recupero, non fauna libera."),
+    "42223260": ("healthcare_amr", "139 isolati di Klebsiella pneumoniae ST6668 con blaNDM-1, 2020-2025, da tre ospedali: 87 all'IRCCS San Raffaele di Milano e 52 genomi di Pavia."),
+    "42217672": ("healthcare_amr", "376 episodi di gonorrea da coltura all'IRCCS San Raffaele (Milano), gennaio 2022-giugno 2025; Neisseria gonorrhoeae, resistenza alla tetraciclina e ridotta sensibilità al ceftriaxone."),
+    "42071966": ("antimicrobial_use", "Uso di antimicrobici (DDDAit) e tassi di riforma in 210 allevamenti di bovine da latte della provincia di Lodi, 2023-2024. Uso, non prevalenza di resistenza."),
+    "41938218": ("healthcare_amr", "1748 isolati da infezioni del piede diabetico all'IRCCS MultiMedica (Milano), giugno 2018-giugno 2024; S. aureus, P. aeruginosa, K. pneumoniae ed E. coli."),
+    "41304232": ("healthcare_amr", "425 campioni positivi per micobatteri non tubercolari in provincia di Pavia, maggio 2011-dicembre 2023, Fondazione IRCCS Policlinico San Matteo; antibiogramma su 223 isolati del 2016-2023. Complesso Mycobacterium avium nel 47% degli isolati."),
+    "40890421": ("healthcare_amr", "1969 pazienti con colonizzazione rettale da KPC, NDM, VRE o CRAB all'IRCCS Policlinico San Matteo (Pavia), gennaio 2019-ottobre 2024; batteriemia nel 9,4% di 1960 ricoveri con queste colonizzazioni."),
+    "39923562": ("wastewater_amr", "Particolato atmosferico totale indoor e outdoor, Università degli Studi di Milano e Università dell'Insubria (Como), maggio-luglio 2022; geni di resistenza ad ampio spettro. Non acque reflue e non sorveglianza clinica."),
+    "39889451": ("companion_animal_amr", "E. coli ESBL, AmpC e carbapenemasi nelle feci di 18/94 gatti randagi ricoverati all'Ospedale veterinario didattico di Lodi (Università degli Studi di Milano), 2020-2022; blaCTX-M, blaCMY-2, blaNDM e blaOXA-48."),
+    "39858317": ("companion_animal_amr", "E. coli e K. pneumoniae da urine di 133 cani ricoverati all'Ospedale veterinario didattico di Milano, 2021 e 2023; 4/34 isolati ESBL con blaCTX-M di gruppo 1."),
+    "39805348": ("healthcare_amr", "992 batteriemie a esordio di comunità (1135 isolati) al pronto soccorso dell'IRCCS Humanitas (Rozzano, Milano), gennaio 2015-giugno 2022; E. coli, anche ESBL, e S. aureus."),
     "42578762": ("healthcare_amr", "Tre ospedali della Lombardia; diffusione di Klebsiella pneumoniae ST147 NDM-14"),
     "42515098": ("foodborne_amr", "Collezione storica di Salmonella da casi umani in Lombardia, 2001-2016"),
     "42511134": ("veterinary_amr", "Isolati bovini di Streptococcus agalactiae provenienti dalla Lombardia"),
@@ -121,7 +134,7 @@ def main() -> int:
     records = list(catalog.get("records", [])) + additions
     records.sort(key=lambda item: (-int(item.get("year", 0)), str(item.get("title", "")).casefold()))
     catalog["selection_note"] = (
-        "Selezione curata e aggiornata il 2026-08-16: studi regionali o locali con collegamento "
+        "Selezione curata e aggiornata il 2026-11-11: studi regionali o locali con collegamento "
         "territoriale esplicito alla Lombardia. Non equivale a una revisione sistematica e gli "
         "studi locali non sono trasformati automaticamente in stime regionali."
     )

@@ -34,7 +34,6 @@ CURATED = {
     "40805079": ("wildlife_amr", "Uccelli selvatici ricoverati al Centro Recupero Animali Selvatici di Vanzago"),
     "39612737": ("dairy_amr", "Stafilococchi meticillino-resistenti in 88 allevamenti bovini da latte della provincia di Lodi"),
     "39200700": ("antimicrobial_stewardship", "Indagine sulle scelte antibiotiche dei pediatri di famiglia della Lombardia"),
-    "38789634": ("healthcare_amr", "Studio real-world in un ospedale lombardo su nuovi antibiotici per Gram-negativi multiresistenti"),
     "36976013": ("healthcare_amr", "Pazienti COVID-19 ventilati in terapia intensiva a Milano con Acinetobacter baumannii resistente ai carbapenemi"),
     "36882761": ("antimicrobial_stewardship", "Programma di stewardship in un reparto di chirurgia vascolare di Pavia"),
     "35756019": ("wastewater_amr", "Escherichia coli OXA-244 isolato da acque superficiali e sotterranee in provincia di Pavia"),

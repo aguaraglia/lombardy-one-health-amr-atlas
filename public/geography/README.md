@@ -14,3 +14,9 @@ e non rappresentano misure di resistenza antimicrobica.
 
 Le trasformazioni sono riproducibili con gli script in `scripts/`. Fonti,
 snapshot, licenze e limiti sono registrati in `metadata/` e `reports/`.
+
+Gli studi della letteratura curata sono in layer distinti sotto `public/data/`,
+non in questi confini di base. Un punto è una struttura nominata. Un poligono
+è un comune o una provincia già presente in questi file. Il contorno regionale
+è riservato agli studi che non dichiarano una scala più fine. Nessuna azienda
+è localizzata.

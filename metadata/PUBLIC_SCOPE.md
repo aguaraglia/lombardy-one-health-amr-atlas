@@ -24,7 +24,7 @@ La base pubblica verificata comprende:
 - coorte CC BY di ricci europei da un CRAS lombardo (Raineri 2026; 25/49 E. coli 3GC-R, 2023-2024); non prevalenza della fauna libera;
 - coorte IZSLER CC BY su E. coli ESBL/AmpC in 1504 cinghiali della provincia di Brescia (Formenti 2021; 15.96%); non prevalenza regionale;
 - isolati CC BY di Campylobacter jejuni da latte di massa, feci e piccioni in stalle da latte IZSLER Lodi (Bianchini 2014; chinoloni 23.3%, macrolidi 0%);
-- letteratura scientifica con collegamento territoriale esplicito alla Lombardia, aggiornata l'11 novembre 2026 e mantenuta distinta dai dataset. Gli studi non sono georiferiti oltre la scala dichiarata dagli autori.
+- letteratura scientifica con collegamento territoriale esplicito alla Lombardia, aggiornata l'11 novembre 2026. Gli studi sono anche nei layer di evidenza (struttura, comune, provincia o contorno regionale), senza aziende localizzate e senza una precisione maggiore di quella dichiarata dagli autori. Il segnaposto indica il luogo dello studio, non una prevalenza.
 
 Gli export SIRe 2025 sono conservati come snapshot raw esclusi da Git e non vengono redistribuiti a livello di singola riga. Il layer puntuale usa invece un servizio cartografico regionale pubblico separato, con soli campi essenziali e con l'anno del rilievo esplicitato. Il reticolo minore e di bonifica non è incluso nella build per evitare un layer sproporzionato e non necessario.
 

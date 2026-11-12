@@ -18,8 +18,18 @@
       "fillColor": "#ffffff",
       "radius": 4,
       "labelProperty": "name",
-      "popupFields": ["name", "province", "survey_year", "context_note"],
-      "popupLabels": {"name":"Impianto", "province":"Provincia", "survey_year":"Anno del rilievo", "context_note":"Nota"}
+      "popupFields": [
+        "name",
+        "province",
+        "survey_year",
+        "context_note"
+      ],
+      "popupLabels": {
+        "name": "Impianto",
+        "province": "Provincia",
+        "survey_year": "Anno del rilievo",
+        "context_note": "Nota"
+      }
     },
     {
       "id": "lombardia_hydrography_rip_aipo",
@@ -37,8 +47,18 @@
       "weight": 1.15,
       "fillOpacity": 0,
       "labelProperty": "name",
-      "popupFields": ["name", "network_type", "kind", "description"],
-      "popupLabels": {"name":"Corso d'acqua", "network_type":"Reticolo", "kind":"Tipologia", "description":"Descrizione"}
+      "popupFields": [
+        "name",
+        "network_type",
+        "kind",
+        "description"
+      ],
+      "popupLabels": {
+        "name": "Corso d'acqua",
+        "network_type": "Reticolo",
+        "kind": "Tipologia",
+        "description": "Descrizione"
+      }
     },
     {
       "id": "lombardia_sire_wastewater_province_2025",
@@ -57,15 +77,42 @@
       "fillOpacity": 0.38,
       "valueProperty": "plants_total",
       "colorScale": [
-        {"max": 24, "color": "#eee5f3"},
-        {"max": 49, "color": "#d8c1e4"},
-        {"max": 74, "color": "#b68dca"},
-        {"max": 99, "color": "#8e5cab"},
-        {"max": 9999, "color": "#62327f"}
+        {
+          "max": 24,
+          "color": "#eee5f3"
+        },
+        {
+          "max": 49,
+          "color": "#d8c1e4"
+        },
+        {
+          "max": 74,
+          "color": "#b68dca"
+        },
+        {
+          "max": 99,
+          "color": "#8e5cab"
+        },
+        {
+          "max": 9999,
+          "color": "#62327f"
+        }
       ],
       "labelProperty": "name",
-      "popupFields": ["name", "plants_total", "plants_major", "plants_minor", "aggregation_note"],
-      "popupLabels": {"name":"Provincia", "plants_total":"Impianti nei consuntivi", "plants_major":"Potenzialità almeno 2.000 AE", "plants_minor":"Potenzialità sotto 2.000 AE", "aggregation_note":"Nota metodologica"}
+      "popupFields": [
+        "name",
+        "plants_total",
+        "plants_major",
+        "plants_minor",
+        "aggregation_note"
+      ],
+      "popupLabels": {
+        "name": "Provincia",
+        "plants_total": "Impianti nei consuntivi",
+        "plants_major": "Potenzialità almeno 2.000 AE",
+        "plants_minor": "Potenzialità sotto 2.000 AE",
+        "aggregation_note": "Nota metodologica"
+      }
     },
     {
       "id": "lombardia_municipalities_istat_2026",
@@ -83,7 +130,11 @@
       "weight": 0.6,
       "fillOpacity": 0.035,
       "labelProperty": "name",
-      "popupFields": ["name", "istat_code", "province_code"]
+      "popupFields": [
+        "name",
+        "istat_code",
+        "province_code"
+      ]
     },
     {
       "id": "lombardia_provinces_istat_2026",
@@ -101,7 +152,11 @@
       "weight": 1.1,
       "fillOpacity": 0,
       "labelProperty": "name",
-      "popupFields": ["name", "abbreviation", "unit_type"]
+      "popupFields": [
+        "name",
+        "abbreviation",
+        "unit_type"
+      ]
     },
     {
       "id": "lombardia_region_istat_2026",
@@ -119,7 +174,254 @@
       "weight": 1.5,
       "fillOpacity": 0,
       "labelProperty": "name",
-      "popupFields": ["name", "istat_code"]
+      "popupFields": [
+        "name",
+        "istat_code"
+      ]
+    },
+    {
+      "publication_status": "public_approved",
+      "publisher": "Studi pubblicati",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/",
+      "license_status": "Sintesi della letteratura curata. Nessun identificativo di azienda, paziente o campione. Il segnaposto non è una prevalenza.",
+      "validation_status": "passed",
+      "source_date": "2026-11-12",
+      "defaultVisible": true,
+      "labelProperty": "place",
+      "popupFields": [
+        "geography_level",
+        "geography_basis",
+        "authors",
+        "year",
+        "title",
+        "sector",
+        "organism",
+        "doi",
+        "geography_note"
+      ],
+      "popupLabels": {
+        "geography_level": "Scala",
+        "geography_basis": "Base geografica",
+        "authors": "Autori",
+        "year": "Anno",
+        "title": "Titolo",
+        "sector": "Settore",
+        "organism": "Organismo o ARG",
+        "doi": "DOI",
+        "geography_note": "Avvertenza"
+      },
+      "id": "lombardia_human_amr_evidence",
+      "label": "AMR umana",
+      "file": "public/data/human_amr_evidence.geojson",
+      "feature_count": 12,
+      "color": "#9e2744",
+      "fillColor": "#9e2744",
+      "radius": 6,
+      "weight": 1.2,
+      "fillOpacity": 0.12
+    },
+    {
+      "publication_status": "public_approved",
+      "publisher": "Studi pubblicati",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/",
+      "license_status": "Sintesi della letteratura curata. Nessun identificativo di azienda, paziente o campione. Il segnaposto non è una prevalenza.",
+      "validation_status": "passed",
+      "source_date": "2026-11-12",
+      "defaultVisible": true,
+      "labelProperty": "place",
+      "popupFields": [
+        "geography_level",
+        "geography_basis",
+        "authors",
+        "year",
+        "title",
+        "sector",
+        "organism",
+        "doi",
+        "geography_note"
+      ],
+      "popupLabels": {
+        "geography_level": "Scala",
+        "geography_basis": "Base geografica",
+        "authors": "Autori",
+        "year": "Anno",
+        "title": "Titolo",
+        "sector": "Settore",
+        "organism": "Organismo o ARG",
+        "doi": "DOI",
+        "geography_note": "Avvertenza"
+      },
+      "id": "lombardia_veterinary_amr_evidence",
+      "label": "AMR veterinaria",
+      "file": "public/data/veterinary_amr_evidence.geojson",
+      "feature_count": 4,
+      "color": "#c16f24",
+      "fillColor": "#c16f24",
+      "radius": 6,
+      "weight": 1.4,
+      "fillOpacity": 0.26
+    },
+    {
+      "publication_status": "public_approved",
+      "publisher": "Studi pubblicati",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/",
+      "license_status": "Sintesi della letteratura curata. Nessun identificativo di azienda, paziente o campione. Il segnaposto non è una prevalenza.",
+      "validation_status": "passed",
+      "source_date": "2026-11-12",
+      "defaultVisible": true,
+      "labelProperty": "place",
+      "popupFields": [
+        "geography_level",
+        "geography_basis",
+        "authors",
+        "year",
+        "title",
+        "sector",
+        "organism",
+        "doi",
+        "geography_note"
+      ],
+      "popupLabels": {
+        "geography_level": "Scala",
+        "geography_basis": "Base geografica",
+        "authors": "Autori",
+        "year": "Anno",
+        "title": "Titolo",
+        "sector": "Settore",
+        "organism": "Organismo o ARG",
+        "doi": "DOI",
+        "geography_note": "Avvertenza"
+      },
+      "id": "lombardia_food_chain_amr_evidence",
+      "label": "AMR alimentare",
+      "file": "public/data/food_chain_amr_evidence.geojson",
+      "feature_count": 1,
+      "color": "#6f8428",
+      "fillColor": "#6f8428",
+      "weight": 2,
+      "fillOpacity": 0.12
+    },
+    {
+      "publication_status": "public_approved",
+      "publisher": "Studi pubblicati",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/",
+      "license_status": "Sintesi della letteratura curata. Nessun identificativo di azienda, paziente o campione. Il segnaposto non è una prevalenza.",
+      "validation_status": "passed",
+      "source_date": "2026-11-12",
+      "defaultVisible": true,
+      "labelProperty": "place",
+      "popupFields": [
+        "geography_level",
+        "geography_basis",
+        "authors",
+        "year",
+        "title",
+        "sector",
+        "organism",
+        "doi",
+        "geography_note"
+      ],
+      "popupLabels": {
+        "geography_level": "Scala",
+        "geography_basis": "Base geografica",
+        "authors": "Autori",
+        "year": "Anno",
+        "title": "Titolo",
+        "sector": "Settore",
+        "organism": "Organismo o ARG",
+        "doi": "DOI",
+        "geography_note": "Avvertenza"
+      },
+      "id": "lombardia_environmental_amr_evidence",
+      "label": "AMR ambientale",
+      "file": "public/data/environmental_amr_evidence.geojson",
+      "feature_count": 5,
+      "color": "#176e8b",
+      "fillColor": "#176e8b",
+      "radius": 6,
+      "weight": 1.2,
+      "fillOpacity": 0.12
+    },
+    {
+      "publication_status": "public_approved",
+      "publisher": "Studi pubblicati",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/",
+      "license_status": "Sintesi della letteratura curata. Nessun identificativo di azienda, paziente o campione. Il segnaposto non è una prevalenza.",
+      "validation_status": "passed",
+      "source_date": "2026-11-12",
+      "defaultVisible": true,
+      "labelProperty": "place",
+      "popupFields": [
+        "geography_level",
+        "geography_basis",
+        "authors",
+        "year",
+        "title",
+        "sector",
+        "organism",
+        "doi",
+        "geography_note"
+      ],
+      "popupLabels": {
+        "geography_level": "Scala",
+        "geography_basis": "Base geografica",
+        "authors": "Autori",
+        "year": "Anno",
+        "title": "Titolo",
+        "sector": "Settore",
+        "organism": "Organismo o ARG",
+        "doi": "DOI",
+        "geography_note": "Avvertenza"
+      },
+      "id": "lombardia_wildlife_amr_evidence",
+      "label": "AMR nella fauna selvatica",
+      "file": "public/data/wildlife_amr_evidence.geojson",
+      "feature_count": 3,
+      "color": "#2f6b4f",
+      "fillColor": "#2f6b4f",
+      "radius": 7,
+      "weight": 1.4,
+      "fillOpacity": 0.2
+    },
+    {
+      "publication_status": "public_approved",
+      "publisher": "Studi pubblicati",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/",
+      "license_status": "Sintesi della letteratura curata. Nessun identificativo di azienda, paziente o campione. Il segnaposto non è una prevalenza.",
+      "validation_status": "passed",
+      "source_date": "2026-11-12",
+      "defaultVisible": true,
+      "labelProperty": "place",
+      "popupFields": [
+        "geography_level",
+        "geography_basis",
+        "authors",
+        "year",
+        "title",
+        "sector",
+        "organism",
+        "doi",
+        "geography_note"
+      ],
+      "popupLabels": {
+        "geography_level": "Scala",
+        "geography_basis": "Base geografica",
+        "authors": "Autori",
+        "year": "Anno",
+        "title": "Titolo",
+        "sector": "Settore",
+        "organism": "Organismo o ARG",
+        "doi": "DOI",
+        "geography_note": "Avvertenza"
+      },
+      "id": "lombardia_regional_study_outline",
+      "label": "Studi a scala regionale",
+      "file": "public/data/regional_study_outline.geojson",
+      "feature_count": 1,
+      "color": "#163c52",
+      "fillColor": "#163c52",
+      "weight": 2.8,
+      "fillOpacity": 0
     }
   ]
 }

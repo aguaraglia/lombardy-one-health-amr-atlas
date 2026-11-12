@@ -376,18 +376,6 @@
       "source_url": "https://pubmed.ncbi.nlm.nih.gov/39612737/"
     },
     {
-      "id": "pubmed_38789634",
-      "year": 2024,
-      "title": "The use of new antibacterial drugs against infections caused by multidrug-resistant Gram-negative bacteria: an Italian real-world evidence study in a Lombardy hospital.",
-      "authors": "Ferrara F et al.",
-      "journal": "Naunyn-Schmiedeberg's archives of pharmacology",
-      "scope": "healthcare_amr",
-      "geographic_link": "Studio real-world in un ospedale lombardo su nuovi antibiotici per Gram-negativi multiresistenti",
-      "pmid": "38789634",
-      "doi": "10.1007/s00210-024-03117-4",
-      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38789634/"
-    },
-    {
       "id": "pubmed_36976013",
       "year": 2023,
       "title": "Genomic Characterization of Carbapenem-Resistant Acinetobacter baumannii (CRAB) in Mechanically Ventilated COVID-19 Patients and Impact of Infection Control Measures on Reducing CRAB Circulation during the Second Wave of the SARS-CoV-2 Pandemic in Milan, Italy.",

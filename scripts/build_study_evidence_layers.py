@@ -80,7 +80,6 @@ ORGANISM = {
     "antonelli_pps3_lombardy_2024": "infezioni correlate all'assistenza e uso di antimicrobici",
     "comelli_microbio_2024": "sorveglianza MICRO-BIO",
     "pubmed_39612737": "S. aureus e stafilococchi meticillino-resistenti",
-    "pubmed_38789634": "Gram-negativi multiresistenti",
     "pubmed_36976013": "Acinetobacter baumannii resistente ai carbapenemi",
     "pubmed_36882761": "stewardship antimicrobica",
     "pubmed_35644436": "S. aureus associato agli allevamenti",
@@ -277,9 +276,8 @@ def main() -> None:
     add("regional", regional_ids, region, "Lombardia", "regione",
         "Gli autori dichiarano la Lombardia, più ospedali non nominati, o una filiera regionale. Il contorno regionale non è un punto di misura.")
 
-    unplaced = ["pubmed_38789634"]
     expected = set(by_id)
-    got = set(placed) | set(unplaced)
+    got = set(placed)
     if got != expected:
         raise SystemExit(f"Copertura incompleta. Mancanti: {sorted(expected - got)}. Extra: {sorted(got - expected)}")
 
@@ -297,7 +295,7 @@ def main() -> None:
         path.write_text(json.dumps(collection, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         print(f"{filename}: {len(layers[key])} features")
 
-    print("PLACED", len(placed), "UNPLACED", unplaced)
+    print("PLACED", len(placed))
     for study_id in sorted(placed):
         print(f"{study_id}\t{placed[study_id]}")
 

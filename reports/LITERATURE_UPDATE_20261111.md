@@ -1,5 +1,7 @@
 # Aggiornamento della letteratura lombarda — 2026-11-11
 
+Il 2026-11-12 Ferrara et al. 2024 (PMID 38789634) è stato tolto: l'abstract non indica la Lombardia e l'afferenza è ASL Napoli 3 Sud, Nola. Il catalogo è di 52 studi. Vedi `reports/LITERATURE_FERRARA_20261112.md`.
+
 Selezione approvata e verificata su PubMed (efetch) e, per Rapi et al. 2026, sul testo completo Europe PMC (PMC13505492). Nessuna voce è stata scartata: i 13 articoli non erano nel catalogo e il collegamento con la Lombardia è nel titolo, nell'abstract o nel testo del lavoro. Il catalogo passa da 40 a 53 studi. Gli studi restano nel registro bibliografico e non sono stati trasformati in punti sulla mappa: il runtime non georeferenzia la letteratura oltre la scala dichiarata dagli autori.
 
 ## Studi aggiunti

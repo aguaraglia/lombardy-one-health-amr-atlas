@@ -15,6 +15,7 @@
     ],
     "zoom": 7
   },
+  "overviewLiteratureLabel": "studi sulla mappa",
   "catalogs": {
     "layers": "public/data/layer-catalog.json",
     "evidence": "public/data/evidence-catalog.json",

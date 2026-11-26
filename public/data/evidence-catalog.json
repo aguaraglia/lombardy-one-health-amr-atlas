@@ -45,10 +45,10 @@
       "evidence_type": "human_amr_surveillance",
       "geography": "Lombardia",
       "period": "2023",
-      "source_url": "https://www.regione.lombardia.it/wps/wcm/connect/ba81b9eb-5f1a-4aa2-ae89-3e5bd1189e21/REGIONE%2BLOMBARDIA_Report_Emocolture_Adulti_2023.pdf?CACHEID=ROOTWORKSPACE-ba81b9eb-5f1a-4aa2-ae89-3e5bd1189e21-pnMQDNp&MOD=AJPERES",
+      "source_url": "https://www.regione.lombardia.it/content/dam/rl/canali-tematici-servizi/01-sanita/05-prevenzione-e-stili-di-vita/red-antimicrobico-resistenza/allegati/amr-documentazione-2023/AMR_Report_%202023.zip",
       "data_file": "public/data/microbio_2023_lombardia.json",
       "publication_status": "public_approved",
-      "note": "Aggregato di 31 presidi pubblici selezionati per qualita del dato; 22.388 eventi BSI; limiti del flusso espliciti."
+      "note": "Aggregato di 31 presidi pubblici selezionati per qualita del dato; 22.388 eventi BSI; limiti del flusso espliciti. Al 2026-11-26 l'URL WCM precedente reindirizza alla pagina 404 del sito; il report è nel pacchetto ufficiale «Antimicrobico Resistenza Report anno 2023» (file interno: REGIONE LOMBARDIA_Report_Emocolture_Adulti_2023.pdf)."
     },
     {
       "id": "regione_lombardia_microbio_pediatric_2023",
@@ -60,7 +60,7 @@
       "source_url": "https://www.regione.lombardia.it/content/dam/rl/canali-tematici-servizi/01-sanita/05-prevenzione-e-stili-di-vita/red-antimicrobico-resistenza/allegati/REGIONE%2BLOMBARDIA_Report%2BInfezioni%2Binvasive%2Bpediatriche_2023.pdf",
       "data_file": "public/data/microbio_pediatric_2023_lombardia.json",
       "publication_status": "public_approved",
-      "note": "1.311 eventi BSI e 36 isolamenti da liquor; pattern regionali selezionati con denominatori e IC95%; nessun dato per struttura."
+      "note": "1.311 eventi BSI e 36 isolamenti da liquor; pattern regionali selezionati con denominatori e IC95%; nessun dato per struttura. Al 2026-11-26 il PDF singolo risponde 404. Il documento non è contenuto nei pacchetti ufficiali ZIP 2022-2025 della pagina regionale sulla settimana mondiale AMR; URL non sostituito (nessun nuovo link verificato). Il report pediatrico 2022 presente nel ZIP 2022 è un documento diverso e non è stato usato come sostituto."
     },
     {
       "id": "arpa_lombardia_sire_acque",
@@ -113,10 +113,10 @@
       "evidence_type": "human_antimicrobial_use",
       "geography": "Lombardia / ASST",
       "period": "2025",
-      "source_url": "https://www.regione.lombardia.it/content/dam/rl/canali-tematici-servizi/01-sanita/05-prevenzione-e-stili-di-vita/red-antimicrobico-resistenza/allegati/2026_01_22%20Report%20AWaRe%202025.pdf",
+      "source_url": "https://www.regione.lombardia.it/content/dam/rl/canali-tematici-servizi/01-sanita/05-prevenzione-e-stili-di-vita/red-antimicrobico-resistenza/allegati/amr-documentazione-2025/AMR%20Report%202025.zip",
       "data_file": "public/data/aware_2025_lombardia.json",
       "publication_status": "public_approved",
-      "note": "Quote Access/Watch/Reserve per 25 ASST e fasce d'eta; consumo territoriale, non ospedaliero e non resistenza."
+      "note": "Quote Access/Watch/Reserve per 25 ASST e fasce d'eta; consumo territoriale, non ospedaliero e non resistenza. Al 2026-11-26 il PDF singolo non è più raggiungibile (404); il report è nel pacchetto ufficiale «Antimicrobico Resistenza Report anno 2025» della pagina regionale (file interno: 2026_01_22 Report_AWaRe_2025.pdf)."
     },
     {
       "id": "regione_lombardia_pps3",
@@ -125,10 +125,10 @@
       "evidence_type": "healthcare_amr_point_prevalence",
       "geography": "Lombardia",
       "period": "novembre-dicembre 2022",
-      "source_url": "https://www.regione.lombardia.it/content/dam/rl/canali-tematici-servizi/01-sanita/05-prevenzione-e-stili-di-vita/red-antimicrobico-resistenza/allegati/REPORT%2BPPS-3.pdf",
+      "source_url": "https://www.regione.lombardia.it/content/dam/rl/canali-tematici-servizi/01-sanita/05-prevenzione-e-stili-di-vita/red-antimicrobico-resistenza/allegati/amr-documentazione-2022/AMR%20Report_2022.zip",
       "data_file": "public/data/pps3_lombardia.json",
       "publication_status": "public_approved",
-      "note": "28 strutture, 12.412 pazienti; prevalenza puntuale con copertura e limiti espliciti."
+      "note": "28 strutture, 12.412 pazienti; prevalenza puntuale con copertura e limiti espliciti. Al 2026-11-26 il PDF singolo non è più raggiungibile (404); il report è nel pacchetto ufficiale «Antimicrobico Resistenza Report anno 2022» (file interno: REPORT_PPS_3_2022.pdf)."
     },
     {
       "id": "arpa_lombardia_sire_2025_summary",
